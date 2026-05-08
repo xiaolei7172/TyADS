@@ -137,26 +137,15 @@ mvn spring-boot:run
 <br/>
 <h2 id="c">📥 规则订阅地址</h2>
 
-### 核心规则地址（替换为你的仓库地址）
-将以下地址中的 `{你的GitHub用户名}` 替换为实际用户名，即可在过滤工具中订阅：
 
 | 规则文件 | 订阅地址（Raw） | 订阅地址（jsDelivr CDN，推荐） | 适用场景 |
 |----------|-----------------|--------------------------------|----------|
-| 全量规则 | https://raw.githubusercontent.com/{你的GitHub用户名}/ad-filters-subscriber/main/rule/all.txt | https://cdn.jsdelivr.net/gh/{你的GitHub用户名}/ad-filters-subscriber/rule/all.txt | 通用全量过滤 |
-| DNS兼容规则 | https://raw.githubusercontent.com/{你的GitHub用户名}/ad-filters-subscriber/main/rule/dns.txt | https://cdn.jsdelivr.net/gh/{你的GitHub用户名}/ad-filters-subscriber/rule/dns.txt | DNS过滤（如 AdGuard Home、SmartDNS） |
-| 纯域名规则 | https://raw.githubusercontent.com/{你的GitHub用户名}/ad-filters-subscriber/main/rule/domain.txt | https://cdn.jsdelivr.net/gh/{你的GitHub用户名}/ad-filters-subscriber/rule/domain.txt | 轻量域名过滤 |
-| HOSTS规则 | https://raw.githubusercontent.com/{你的GitHub用户名}/ad-filters-subscriber/main/rule/hosts.txt | https://cdn.jsdelivr.net/gh/{你的GitHub用户名}/ad-filters-subscriber/rule/hosts.txt | HOSTS 配置 |
-| 修饰符规则 | https://raw.githubusercontent.com/{你的GitHub用户名}/ad-filters-subscriber/main/rule/modify.txt | https://cdn.jsdelivr.net/gh/{你的GitHub用户名}/ad-filters-subscriber/rule/modify.txt | AdGuard 高级过滤 |
-| 正则规则 | https://raw.githubusercontent.com/{你的GitHub用户名}/ad-filters-subscriber/main/rule/regex.txt | https://cdn.jsdelivr.net/gh/{你的GitHub用户名}/ad-filters-subscriber/rule/regex.txt | 正则域名过滤 |
-
-### 示例（以 fordes123 为例）
-```
-# 全量规则（CDN加速）
-https://cdn.jsdelivr.net/gh/fordes123/ad-filters-subscriber/rule/all.txt
-
-# DNS规则（Raw）
-https://raw.githubusercontent.com/fordes123/ad-filters-subscriber/main/rule/dns.txt
-```
+| 全量规则 | https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/all.txt | https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/all.txt | 通用全量过滤 |
+| DNS兼容规则 | https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/dns.txt | https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/dns.txt | DNS过滤（如 AdGuard Home、SmartDNS） |
+| 纯域名规则 | https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/domain.txt | https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/domain.txt | 轻量域名过滤 |
+| HOSTS规则 | https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/hosts.txt | https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/hosts.txt | HOSTS 配置 |
+| 修饰符规则 | https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/modify.txt | https://cdn.jsdelivr.net/gh/{xiaolei7172/TyADS/rule/modify.txt | AdGuard 高级过滤 |
+| 正则规则 | https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/regex.txt | https://cdn.jsdelivr.net/gh/xiaolei7172/TyADSr/rule/regex.txt | 正则域名过滤 |
 
 <br/>
 <h2 id="d">💡 使用方法</h2>
@@ -186,7 +175,7 @@ https://raw.githubusercontent.com/fordes123/ad-filters-subscriber/main/rule/dns.
 3. 保存配置并重启工具。
 
 ### 3. HOSTS 配置（路由器/手机/PC）
-1. 复制 HOSTS 规则地址：`https://cdn.jsdelivr.net/gh/{你的用户名}/ad-filters-subscriber/rule/hosts.txt`；
+1. 复制 HOSTS 规则地址：`https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/hosts.txt`；
 2. 根据设备类型配置自动拉取：
    - 路由器：在「自定义 HOSTS」中填写订阅地址，设置更新周期；
    - 手机/PC：使用 HOSTS 管理工具（如 HostsGo、SwitchHosts!）添加订阅，开启自动更新。
@@ -200,7 +189,7 @@ custom.txt:
 ```
 提交后会自动生成 `rule/custom.txt`，对应订阅地址：
 ```
-https://cdn.jsdelivr.net/gh/{你的用户名}/ad-filters-subscriber/rule/custom.txt
+https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/custom.txt
 ```
 
 <br/>
@@ -208,7 +197,7 @@ https://cdn.jsdelivr.net/gh/{你的用户名}/ad-filters-subscriber/rule/custom.
 
 1. 规则不生效：检查规则类型是否匹配工具（如 MODIFY 规则不兼容DNS过滤）；
 2. 订阅地址无法访问：确认仓库已公开，且文件路径正确；
-3. 规则更新不及时：jsDelivr 缓存约10分钟，可手动刷新：`https://purge.jsdelivr.net/gh/{你的用户名}/ad-filters-subscriber/rule/all.txt`；
+3. 规则更新不及时：jsDelivr 缓存约10分钟，可手动刷新：`https://purge.jsdelivr.net/gh/xiaolei7172/TyADS/rule/all.txt`；
 4. 其他问题：提交 Issue 到仓库 → [Issues · fordes123/ad-filters-subscriber](https://github.com/fordes123/ad-filters-subscriber/issues)
 
 <br/>
@@ -237,8 +226,4 @@ https://cdn.jsdelivr.net/gh/{你的用户名}/ad-filters-subscriber/rule/custom.
    - 新增「规则订阅地址」「使用方法」独立章节，逻辑更清晰；
    - 补充问题反馈的常见场景和解决方案，降低使用门槛。
 
-### 使用建议
-1. 将 `{你的GitHub用户名}` 替换为实际用户名（如 `fordes123`），确保地址可访问；
-2. 若新增/删除规则文件（如 `dns.txt`），同步更新「规则订阅地址」表格；
-3. 可根据实际支持的工具，补充更多使用场景（如 SmartDNS、AdBlock Plus 等）；
-4. 建议在仓库根目录添加 `screen.png` 截图（工具配置示例），增强可读性。
+
