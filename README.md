@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 <h1>AD Filter Subscriber</h1>
   <p>
