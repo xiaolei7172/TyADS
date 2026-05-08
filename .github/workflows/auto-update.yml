@@ -1,6 +1,6 @@
 name: Update Filters
 on:
-  # 1. 保留原有 push 触发规则（排除指定文件、仅 main 分支）
+  # 保留原有 push 触发规则
   push:
     paths-ignore:
       - 'README.md'
@@ -9,13 +9,12 @@ on:
       - '.devcontainer/**'
       - 'LICENSE'
     branches: [ main ]
-  # 2. 保留手动触发
+  # 保留手动触发
   workflow_dispatch:
-  # 3. 新增定时触发（核心：自动更新规则）
+  # 核心修改：每8小时触发一次（UTC时区，对应北京时间需+8小时）
   schedule:
-    # cron 表达式（UTC 时区，以下示例为 北京时间每天凌晨2点执行）
-    # 格式：分 时 日 月 周，UTC+8=北京时间，所以 UTC 18点 = 北京时间 2点
-    - cron: '0 18 * * *'
+    # cron表达式：分 时 日 月 周 → */8 表示每8小时执行一次
+    - cron: '0 */8 * * *'
 
 env:
   TZ: Asia/Shanghai
@@ -29,7 +28,7 @@ jobs:
       
     steps:
       - uses: actions/checkout@v3
-        # 新增：拉取完整历史（避免提交时冲突）
+        # 拉取完整历史，避免提交冲突
         with:
           fetch-depth: 0
 
@@ -42,7 +41,7 @@ jobs:
 
       - name: Run Jar
         run: mvn spring-boot:run
-        # 可选：增加超时时间（防止规则拉取耗时过长中断）
+        # 超时保护：10分钟未完成则终止
         timeout-minutes: 10
 
       - name: Commit Changes
@@ -50,9 +49,8 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 🚀 CI Updated (Auto/Manual/Push)
-          # 明确提交的文件范围（仅规则文件，避免误提交）
+          # 仅提交规则文件，避免误操作
           file_pattern: 'rule/**/*.txt'
-          # 配置提交用户信息（可选，默认用 GitHub Actions 账号）
           commit_user_name: GitHub Actions
           commit_user_email: actions@github.com
           commit_author: GitHub Actions <actions@github.com>
@@ -65,7 +63,7 @@ jobs:
           branch: ${{github.ref}}
 
       - name: Mirror Refresh
-        # 仅当有文件变更时刷新 jsdelivr 缓存
+        # 仅文件变更时刷新 jsdelivr 缓存
         if: steps.commit.outputs.changes_detected == 'true'
         run: sleep 10 && curl 'https://purge.jsdelivr.net/gh/${{github.repository}}/rule'
 
