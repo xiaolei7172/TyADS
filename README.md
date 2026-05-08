@@ -135,17 +135,32 @@ mvn spring-boot:run
    - 提交触发：修改非配置文件（如 README）提交到 main 分支时触发。
 
 <br/>
+
 <h2 id="c">📥 规则订阅地址</h2>
 
+【Raw 原始地址】
+全量规则：https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/all.txt
+DNS 兼容规则：https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/dns.txt
+纯域名规则：https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/domain.txt
+HOSTS 规则：https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/hosts.txt
+修饰符规则：https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/modify.txt
+正则规则：https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/regex.txt
 
-| 规则文件 | 订阅地址（Raw） | 订阅地址（jsDelivr CDN，推荐） | 适用场景 |
-|----------|-----------------|--------------------------------|----------|
-| 全量规则 | https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/all.txt | https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/all.txt | 通用全量过滤 |
-| DNS兼容规则 | https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/dns.txt | https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/dns.txt | DNS过滤（如 AdGuard Home、SmartDNS） |
-| 纯域名规则 | https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/domain.txt | https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/domain.txt | 轻量域名过滤 |
-| HOSTS规则 | https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/hosts.txt | https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/hosts.txt | HOSTS 配置 |
-| 修饰符规则 | https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/modify.txt | https://cdn.jsdelivr.net/gh/{xiaolei7172/TyADS/rule/modify.txt | AdGuard 高级过滤 |
-| 正则规则 | https://raw.githubusercontent.com/xiaolei7172/TyADS/main/rule/regex.txt | https://cdn.jsdelivr.net/gh/xiaolei7172/TyADSr/rule/regex.txt | 正则域名过滤 |
+【jsDelivr CDN 地址（推荐，访问更快）】
+全量规则：https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/all.txt
+DNS 兼容规则：https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/dns.txt
+纯域名规则：https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/domain.txt
+HOSTS 规则：https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/hosts.txt
+修饰符规则：https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/modify.txt
+正则规则：https://cdn.jsdelivr.net/gh/xiaolei7172/TyADS/rule/regex.txt
+
+各规则适用场景：
+全量规则：通用全量过滤
+DNS 兼容规则：DNS 过滤（如 AdGuard Home、SmartDNS）
+纯域名规则：轻量域名过滤
+HOSTS 规则：HOSTS 配置（路由器 / 手机 / PC）
+修饰符规则：AdGuard 高级过滤
+正则规则：正则域名过滤
 
 <br/>
 <h2 id="d">💡 使用方法</h2>
