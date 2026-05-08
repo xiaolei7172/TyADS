@@ -1,5 +1,3 @@
-以下是修改后的 `README.md` 文件内容，补充了**规则订阅地址**和**详细使用方法**，同时优化了项目说明的可读性，适配你的广告过滤规则订阅器项目结构：
-
 ```markdown
 <div align="center">
 <h1>AD Filter Subscriber</h1>
