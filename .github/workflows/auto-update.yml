@@ -7,7 +7,7 @@ on:
       - '.github/**'
       - '.devcontainer/**'
       - 'LICENSE'
-  # 核心：每8小时自动更新（UTC时区，对应北京时间+8小时）
+  # 每8小时自动更新（UTC时区，北京时间+8小时）
   schedule:
     - cron: '0 */8 * * *'
   workflow_dispatch:
@@ -37,7 +37,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          # 拉取完整仓库历史，避免提交冲突
           fetch-depth: 0
           ref: ${{ github.head_ref || github.ref }}
 
@@ -54,10 +53,9 @@ jobs:
           echo "profile=${{ github.event.inputs.profile || 'prod' }}" >> $GITHUB_OUTPUT
           echo "release-branch=${{ github.event.inputs.release-branch || '' }}" >> $GITHUB_OUTPUT
 
-      # 核心修改1：运行前删除rule目录下所有文件（清空原有规则）
+      # 清空旧规则文件（删除后重建）
       - name: Clean old rule files
         run: |
-          # 若rule目录存在，删除其中所有文件；若不存在则创建
           if [ -d "rule" ]; then
             rm -rf rule/*
             echo "✅ 已清空rule目录下所有原有规则文件"
@@ -66,10 +64,10 @@ jobs:
             echo "✅ 已创建rule目录"
           fi
 
-      # 运行程序重新生成规则（清空后重建）
+      # 运行程序生成新规则
       - name: Run Jar
-        run:  mvn spring-boot:run -Dspring-boot.run.profiles=${{ steps.defaults.outputs.profile }}
-        timeout-minutes: 10  # 超时保护，防止卡死
+        run: mvn spring-boot:run -Dspring-boot.run.profiles=${{ steps.defaults.outputs.profile }}
+        timeout-minutes: 10
 
       - name: Upload parser log
         uses: actions/upload-artifact@v7
@@ -77,7 +75,7 @@ jobs:
           name: parser.log
           path: logs/parser.log
 
-      # 保留原有release分支清理逻辑（仅当指定release-branch时执行）
+      # release分支专属清理逻辑
       - name: Clean up for release
         if: steps.defaults.outputs.release-branch != ''
         run: |
@@ -90,34 +88,31 @@ jobs:
         if: steps.defaults.outputs.release-branch != ''
         run: echo "date=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
 
-      # 核心修改2：调整提交逻辑——无论是否指定release-branch都提交规则变更
+      # 修复语法错误的提交步骤
       - name: Commit Changes
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          # 区分提交场景，更清晰
-          commit_message: ${{ steps.defaults.outputs.release-branch != '' 
-            && format('chore: ✅ auto release at {0}', steps.date.outputs.date) 
-            || 'chore: ✅ auto update rules (8h interval)' }}
-          # 提交到对应分支（默认main，指定则提交到release-branch）
-          branch: ${{ steps.defaults.outputs.release-branch != '' 
-            && steps.defaults.outputs.release-branch 
-            || github.ref_name }}
-          # 仅跟踪rule目录的变更（核心规则文件）
+          # 修复：将多行三元表达式改为单行，避免YAML解析错误
+          commit_message: ${{ steps.defaults.outputs.release-branch != '' && format('chore: ✅ auto release at {0}', steps.date.outputs.date) || 'chore: ✅ auto update rules (8h interval)' }}
+          # 提交分支（适配release-branch参数）
+          branch: ${{ steps.defaults.outputs.release-branch != '' && steps.defaults.outputs.release-branch || github.ref_name }}
+          # 仅跟踪rule目录变更
           file_pattern: 'rule/**'
-          # 强制推送（仅release分支需要，默认分支禁用）
+          # 仅release分支启用强制推送
           push_options: ${{ steps.defaults.outputs.release-branch != '' && '--force' || '' }}
-          # 仅当指定release-branch时创建分支/允许空提交
+          # 仅release分支启用以下参数
           create_branch: ${{ steps.defaults.outputs.release-branch != '' }}
           skip_dirty_check: ${{ steps.defaults.outputs.release-branch != '' }}
           skip_fetch: ${{ steps.defaults.outputs.release-branch != '' }}
           skip_checkout: ${{ steps.defaults.outputs.release-branch != '' }}
           commit_options: ${{ steps.defaults.outputs.release-branch != '' && '--allow-empty' || '' }}
 
+      # 删除旧Workflow运行记录
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
-          token: ${{secrets.GITHUB_TOKEN}}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           retain_days: 1
           keep_minimum_runs: 1
