@@ -52,6 +52,12 @@ jobs:
         run: |
           echo "profile=${{ github.event.inputs.profile || 'prod' }}" >> $GITHUB_OUTPUT
           echo "release-branch=${{ github.event.inputs.release-branch || '' }}" >> $GITHUB_OUTPUT
+          # 新增：提前拼接提交信息，避免YAML表达式复杂语法
+          if [ -n "${{ github.event.inputs.release-branch }}" ]; then
+            echo "commit_msg=chore: auto release at ${{ steps.date.outputs.date }}" >> $GITHUB_OUTPUT
+          else
+            echo "commit_msg=chore: auto update rules (8h interval)" >> $GITHUB_OUTPUT
+          fi
 
       # 清空旧规则文件（删除后重建）
       - name: Clean old rule files
@@ -77,7 +83,7 @@ jobs:
 
       # release分支专属清理逻辑
       - name: Clean up for release
-        if: steps.defaults.outputs.release-branch != ''
+        if: ${{ steps.defaults.outputs.release-branch != '' }}
         run: |
           find . -maxdepth 1 ! -name 'rule' ! -name '.' ! -name '.git' -exec rm -rf {} +
           mv rule/* .
@@ -85,7 +91,7 @@ jobs:
 
       - name: Set current date
         id: date
-        if: steps.defaults.outputs.release-branch != ''
+        if: ${{ steps.defaults.outputs.release-branch != '' }}
         run: echo "date=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
 
       # 修复语法错误的提交步骤
@@ -93,15 +99,15 @@ jobs:
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          # 修复：将多行三元表达式改为单行，避免YAML解析错误
-          commit_message: ${{ steps.defaults.outputs.release-branch != '' && format('chore: ✅ auto release at {0}', steps.date.outputs.date) || 'chore: ✅ auto update rules (8h interval)' }}
-          # 提交分支（适配release-branch参数）
+          # 改用提前生成的简单变量，避免复杂表达式
+          commit_message: ${{ steps.defaults.outputs.commit_msg }}
+          # 提交分支（简化表达式格式）
           branch: ${{ steps.defaults.outputs.release-branch != '' && steps.defaults.outputs.release-branch || github.ref_name }}
           # 仅跟踪rule目录变更
           file_pattern: 'rule/**'
-          # 仅release分支启用强制推送
+          # 仅release分支启用强制推送（简化表达式）
           push_options: ${{ steps.defaults.outputs.release-branch != '' && '--force' || '' }}
-          # 仅release分支启用以下参数
+          # 仅release分支启用以下参数（统一表达式格式）
           create_branch: ${{ steps.defaults.outputs.release-branch != '' }}
           skip_dirty_check: ${{ steps.defaults.outputs.release-branch != '' }}
           skip_fetch: ${{ steps.defaults.outputs.release-branch != '' }}
