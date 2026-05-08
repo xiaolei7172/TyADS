@@ -1,8 +1,9 @@
-[TyADS Adblock List]
+[天影-自用规则 Adblock List]
 ! ------------------------------------------------
-! Title: 天影-自用规则
-! Version: 2026-05-09 06:44:02
+! Title: hosts.txt
+! Version: 2026-05-09 06:46:33
 ! Homepage: https://github.com/xiaolei7172/TyADS
+! Description: 规则整合，自用规则
 ! ------------------------------------------------
 ! 👇This Part Merge from: qq5460168 Rules (https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)
 0.0.0.0 monitor.ads.8le8le.com
