@@ -1,5 +1,6 @@
 name: Update Filters
 on:
+  # 1. 保留原有 push 触发规则（排除指定文件、仅 main 分支）
   push:
     paths-ignore:
       - 'README.md'
@@ -7,21 +8,14 @@ on:
       - '.github/**'
       - '.devcontainer/**'
       - 'LICENSE'
-  # 每8小时自动更新（UTC时区，北京时间+8小时）
-  schedule:
-    - cron: '0 */8 * * *'
+    branches: [ main ]
+  # 2. 保留手动触发
   workflow_dispatch:
-    inputs:
-      profile:
-        required: false
-        default: 'prod'
-        type: string
-        description: 'Application running profile'
-      release-branch:
-        required: false
-        default: ''
-        type: string
-        description: 'Release branch name'
+  # 3. 新增定时触发（核心：自动更新规则）
+  schedule:
+    # cron 表达式（UTC 时区，以下示例为 北京时间每天凌晨2点执行）
+    # 格式：分 时 日 月 周，UTC+8=北京时间，所以 UTC 18点 = 北京时间 2点
+    - cron: '0 18 * * *'
 
 env:
   TZ: Asia/Shanghai
@@ -32,93 +26,53 @@ jobs:
     permissions:
       contents: write
       actions: write
-
+      
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v3
+        # 新增：拉取完整历史（避免提交时冲突）
         with:
           fetch-depth: 0
-          ref: ${{ github.head_ref || github.ref }}
 
-      - name: Set up JDK 25
-        uses: actions/setup-java@v5
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
         with:
-          java-version: '25'
+          java-version: '17'
           distribution: 'temurin'
           cache: maven
 
-      - name: Set default values
-        id: defaults
-        run: |
-          echo "profile=${{ github.event.inputs.profile || 'prod' }}" >> $GITHUB_OUTPUT
-          echo "release-branch=${{ github.event.inputs.release-branch || '' }}" >> $GITHUB_OUTPUT
-          # 新增：提前拼接提交信息，避免YAML表达式复杂语法
-          if [ -n "${{ github.event.inputs.release-branch }}" ]; then
-            echo "commit_msg=chore: auto release at ${{ steps.date.outputs.date }}" >> $GITHUB_OUTPUT
-          else
-            echo "commit_msg=chore: auto update rules (8h interval)" >> $GITHUB_OUTPUT
-          fi
-
-      # 清空旧规则文件（删除后重建）
-      - name: Clean old rule files
-        run: |
-          if [ -d "rule" ]; then
-            rm -rf rule/*
-            echo "✅ 已清空rule目录下所有原有规则文件"
-          else
-            mkdir -p rule
-            echo "✅ 已创建rule目录"
-          fi
-
-      # 运行程序生成新规则
       - name: Run Jar
-        run: mvn spring-boot:run -Dspring-boot.run.profiles=${{ steps.defaults.outputs.profile }}
+        run: mvn spring-boot:run
+        # 可选：增加超时时间（防止规则拉取耗时过长中断）
         timeout-minutes: 10
 
-      - name: Upload parser log
-        uses: actions/upload-artifact@v7
-        with:
-          name: parser.log
-          path: logs/parser.log
-
-      # release分支专属清理逻辑
-      - name: Clean up for release
-        if: ${{ steps.defaults.outputs.release-branch != '' }}
-        run: |
-          find . -maxdepth 1 ! -name 'rule' ! -name '.' ! -name '.git' -exec rm -rf {} +
-          mv rule/* .
-          rm -rf rule
-
-      - name: Set current date
-        id: date
-        if: ${{ steps.defaults.outputs.release-branch != '' }}
-        run: echo "date=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
-
-      # 修复语法错误的提交步骤
       - name: Commit Changes
         id: commit
-        uses: stefanzweifel/git-auto-commit-action@v7
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          # 改用提前生成的简单变量，避免复杂表达式
-          commit_message: ${{ steps.defaults.outputs.commit_msg }}
-          # 提交分支（简化表达式格式）
-          branch: ${{ steps.defaults.outputs.release-branch != '' && steps.defaults.outputs.release-branch || github.ref_name }}
-          # 仅跟踪rule目录变更
-          file_pattern: 'rule/**'
-          # 仅release分支启用强制推送（简化表达式）
-          push_options: ${{ steps.defaults.outputs.release-branch != '' && '--force' || '' }}
-          # 仅release分支启用以下参数（统一表达式格式）
-          create_branch: ${{ steps.defaults.outputs.release-branch != '' }}
-          skip_dirty_check: ${{ steps.defaults.outputs.release-branch != '' }}
-          skip_fetch: ${{ steps.defaults.outputs.release-branch != '' }}
-          skip_checkout: ${{ steps.defaults.outputs.release-branch != '' }}
-          commit_options: ${{ steps.defaults.outputs.release-branch != '' && '--allow-empty' || '' }}
+          commit_message: 🚀 CI Updated (Auto/Manual/Push)
+          # 明确提交的文件范围（仅规则文件，避免误提交）
+          file_pattern: 'rule/**/*.txt'
+          # 配置提交用户信息（可选，默认用 GitHub Actions 账号）
+          commit_user_name: GitHub Actions
+          commit_user_email: actions@github.com
+          commit_author: GitHub Actions <actions@github.com>
 
-      # 删除旧Workflow运行记录
+      - name: GitHub Push
+        if: steps.commit.outputs.changes_detected == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          branch: ${{github.ref}}
+
+      - name: Mirror Refresh
+        # 仅当有文件变更时刷新 jsdelivr 缓存
+        if: steps.commit.outputs.changes_detected == 'true'
+        run: sleep 10 && curl 'https://purge.jsdelivr.net/gh/${{github.repository}}/rule'
+
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{secrets.GITHUB_TOKEN}}
           repository: ${{ github.repository }}
           retain_days: 1
           keep_minimum_runs: 1
