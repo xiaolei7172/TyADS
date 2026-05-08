@@ -1,7 +1,9 @@
-[ADFS Adblock List]
-! Title: 天影-自用规则\n
-! Last Modified: 2026-05-09 06:35:52
+[TyADS Adblock List]
+! ------------------------------------------------
+! Title: 天影-自用规则
+! Version: 2026-05-09 06:44:02
 ! Homepage: https://github.com/xiaolei7172/TyADS
+! ------------------------------------------------
 ! 👇This Part Merge from: qq5460168 Rules (https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)
 0.0.0.0 monitor.ads.8le8le.com
 0.0.0.0 track.aso1.net
