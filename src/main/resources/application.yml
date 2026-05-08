@@ -20,26 +20,26 @@ application:
 
     # 仅支持 http/https，不限定响应内容格式
     remote:
-      - name: 'AdGuard Base' # AdGuard官方核心规则
-        path: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt'
-      - name: 'AdGuard Chinese' # AdGuard官方中文规则
-        path: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt'
-      - name: 'SmartTV AGH' # 智能电视/机顶盒广告规则
-        path: 'https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt'
-      - name: 'EasyList' # EasyList官方通用规则
-        path: 'https://easylist-downloads.adblockplus.org/easylist.txt'
-      - name: 'EasyList China' # EasyList中文分支规则
-        path: 'https://easylist-downloads.adblockplus.org/easylistchina.txt'
-      - name: 'EasyPrivacy' # 隐私保护规则
-        path: 'https://easylist-downloads.adblockplus.org/easyprivacy.txt'
-      - name: 'NoAppDownload' # 拦截诱导APP下载规则
-        path: 'https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt'
-      - name: 'oisd abp small' # 轻量通用广告拦截规则
-        path: 'https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_small.txt'
+      #- name: 'AdGuard Base' # AdGuard官方核心规则
+      #  path: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt'
+      #- name: 'AdGuard Chinese' # AdGuard官方中文规则
+      #  path: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt'
+      #- name: 'SmartTV AGH' # 智能电视/机顶盒广告规则
+      #  path: 'https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt'
+      #- name: 'EasyList' # EasyList官方通用规则
+      #  path: 'https://easylist-downloads.adblockplus.org/easylist.txt'
+      #- name: 'EasyList China' # EasyList中文分支规则
+      #  path: 'https://easylist-downloads.adblockplus.org/easylistchina.txt'
+      #- name: 'EasyPrivacy' # 隐私保护规则
+      #  path: 'https://easylist-downloads.adblockplus.org/easyprivacy.txt'
+      #- name: 'NoAppDownload' # 拦截诱导APP下载规则
+      #  path: 'https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt'
+      #- name: 'oisd abp small' # 轻量通用广告拦截规则
+      #  path: 'https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_small.txt'
       - name: 'AWAvenue Ads Rule' # 国内定制广告规则
         path: 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt'
-      - name: 'xinggsf Adblock Rule' # 老牌中文广告规则
-        path: 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt'
+      #- name: 'xinggsf Adblock Rule' # 老牌中文广告规则
+      #  path: 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt'
       - name: 'DD-AD Rule' # 国内移动端广告规则
         path: 'https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt'
       - name: 'jiekouAD' # 广告接口拦截规则
@@ -50,6 +50,15 @@ application:
         path: 'https://raw.githubusercontent.com/qq5460168/666/master/rules.txt'
       - name: 'cjx annoyance' # 网页烦扰元素拦截规则
         path: 'https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt'
+      - name: 'fqnovel-fxxk_ads' # 番茄屠龙刀规则
+        path: 'https://raw.githubusercontent.com/changzhaoCZ/fqnovel-adrules/refs/heads/main/fqnovel-fxxk_ads'
+      - name: 'anti-ad' # anti-ad规则
+        path: ' https://anti-ad.net/adguard.txt'
+      - name: 'SMAdHosts' # M广告丟那吗hosts
+        path: ' https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts'
+      - name: 'Y-hosts' # hosts
+        path: ' https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt'
+
 
     #本地规则请将文件放置到项目路径rule目录中
     local:
