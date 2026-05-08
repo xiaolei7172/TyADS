@@ -57,10 +57,12 @@ application:
 #        path: 'local-rule.txt'
   output:
     file_header: |  #输出文件头, 占位符${name}将被替换为文件名，如all.txt,  ${date} 将被替换为当前日期
-      [ADFS Adblock List]
-      ! Title: 天影-自用规则\n
-      ! Last Modified: ${date}
+      [TyADS Adblock List]
+      ! ------------------------------------------------
+      ! Title: 天影-自用规则
+      ! Version: ${date}
       ! Homepage: https://github.com/xiaolei7172/TyADS
+      ! ------------------------------------------------
     path: rule   #规则文件输出路径，相对路径默认从 项目目录开始
     files:
        all.txt: #输出文件名
