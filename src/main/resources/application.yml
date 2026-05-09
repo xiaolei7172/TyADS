@@ -85,10 +85,10 @@ application:
     file_header: |  #输出文件头, 占位符${name}将被替换为文件名，如all.txt,  ${date} 将被替换为当前日期
        [Tianying-自用规则 Adblock List]
        ! ===================================================
-       ! 📌 Title: 天影自用规则-当前规则：${name}
-       ! 📝 Description:更新时间: ${date}
-       ! 🌐 项目地址: https://github.com/xiaolei7172/TyADS
-       ! 💡 说   明: 整合个人喜爱规则，可能有误杀，介意勿用
+       ! Title: 📌 天影自用规则（每8小时更新一次）
+       ! Description:📝 更新时间: ${date} | 📝 当前规则：${name}
+       ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
+       ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
        ! ===================================================
     path: rule   #规则文件输出路径，相对路径默认从 项目目录开始
     files:
