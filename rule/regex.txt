@@ -1,7 +1,7 @@
 [天影-自用规则 Adblock List]
 ! ------------------------------------------------
 ! Title: 天影自用规则-当前规则：regex.txt
-! 更新时间: 2026-05-09 09:33:14
+! 更新时间: 2026-05-09 17:25:03
 ! 项目地址: https://github.com/xiaolei7172/TyADS
 ! 说   明: 整合个人喜爱规则，可能有误杀，介意勿用
 ! ------------------------------------------------
@@ -93,8 +93,6 @@
 ||ads*-normal.zijieapi.com^
 @@||d*.static.yximgs.com^
 ||ads*-normal-lq.zijieapi.com.w.cdngslb.com^
-! 天影提示👇以下规则来自： cjx annoyance (https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt)
-||acookie.*.gif?
 ! 天影提示👇以下规则来自： 轻量广告拦截规则 (https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt)
 ||zcchyr*.xyz^
 ||js.*2023*.live^
@@ -108,6 +106,7 @@
 ||gtlpa*.com^
 ||at*.doubanio.com^
 ||zazgiyoh*.world^
+||tupian888.*.bcebos.com^
 ||zabdybod*.club^
 ||yhsfsdv*.com^
 ||thezbpe5*.xyz^
@@ -126,7 +125,6 @@
 ||38.33.15.*.gif
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||67.21.92.*.gif
-||tupian888.*.bcebos.com^
 ||ad*.on.cc^
 ||121.204.246.*.gif
 ||107.167.16.*.gif
@@ -205,6 +203,16 @@
 ||yd11_13-site-02.^
 ||taluo-h5res.*.com^
 ||shuixiands.^
+! 天影提示👇以下规则来自： AdGuard官方核心规则 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
+||reachableads-av.*.amazonaws.com^
+||counter*.stat.ovh^
+||ads.livetv*.me^
+||advert*.livesportmedia.eu^
+||ad-host-backup-*.aliyuncs.com^
+||fxhpaoxqyajvmdg.
+||rgfftupf.
+||prebid-*.rubiconproject.com^
+||advertising.civitai.
 ! 天影提示👇以下规则来自： AdGuard官方中文规则 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt)
 ||sax*.sina.
 ||adi*.cnool.net^
@@ -216,16 +224,6 @@
 ||sam*.baby-kingdom.com^
 ||impservice*.yodao.com^
 ||ja*.gamersky.com^
-! 天影提示👇以下规则来自： AdGuard官方核心规则 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
-||reachableads-av.*.amazonaws.com^
-||counter*.stat.ovh^
-||ads.livetv*.me^
-||advert*.livesportmedia.eu^
-||ad-host-backup-*.aliyuncs.com^
-||fxhpaoxqyajvmdg.
-||rgfftupf.
-||prebid-*.rubiconproject.com^
-||advertising.civitai.
 ! 天影提示👇以下规则来自： AdGuard官方中文规则 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt)
 ||bdcpro*.techweb.com.cn^
 ||uc*.atobo.com^
@@ -298,6 +296,8 @@
 ||gamenguide.com*adbk
 ||pijama.*.elasticbeanstalk.com^
 ||itechpost.com*adbk
+! 天影提示👇以下规则来自： cjx annoyance (https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt)
+||acookie.*.gif?
 ! 天影提示👇以下规则来自： AdGuard官方核心规则 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
 Banner468x60
 ! 天影提示👇以下规则来自： AdGuard官方核心规则 (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
