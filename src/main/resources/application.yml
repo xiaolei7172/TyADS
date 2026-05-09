@@ -50,7 +50,7 @@ application:
         path: 'https://raw.githubusercontent.com/qq5460168/666/master/rules.txt'
       - name: 'cjx annoyance' # 网页烦扰元素拦截规则
         path: 'https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt'
-      - name: 'fqnovel-fxxk_ads' # 番茄屠龙刀规则
+      - name: '番茄规则' # 番茄屠龙刀规则
         path: 'https://raw.githubusercontent.com/changzhaoCZ/fqnovel-adrules/refs/heads/main/fqnovel-fxxk_ads'
       - name: 'anti-ad' # anti-ad规则
         path: ' https://anti-ad.net/adguard.txt'
@@ -58,6 +58,10 @@ application:
         path: ' https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts'
       - name: 'Y-hosts' # hosts
         path: ' https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt'
+      - name: '游戏规则' # 此规则游戏拦截
+        path: ' http://hgzs.uunat.com/yx.txt'
+      - name: '乘风 广告过滤规则' # 乘风 广告过滤规则
+        path: ' https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt'
 
 
     #本地规则请将文件放置到项目路径rule目录中
@@ -68,10 +72,10 @@ application:
     file_header: |  #输出文件头, 占位符${name}将被替换为文件名，如all.txt,  ${date} 将被替换为当前日期
       [天影-自用规则 Adblock List]
       ! ------------------------------------------------
-      ! Title: ${name}
-      ! Version: ${date}
-      ! Homepage: https://github.com/xiaolei7172/TyADS
-      ! Description: 规则整合，自用规则
+      ! Title: 天影自用规则-当前规则：${name}
+      ! 更新时间: ${date}
+      ! 项目地址: https://github.com/xiaolei7172/TyADS
+      ! 说   明: 整合个人喜爱规则，可能有误杀，介意勿用
       ! ------------------------------------------------
     path: rule   #规则文件输出路径，相对路径默认从 项目目录开始
     files:
