@@ -26,14 +26,14 @@ application:
         path: 'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt'
       - name: '智能电视/机顶盒广告规则' # 智能电视/机顶盒广告规则
         path: 'https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt'
-      - name: 'EasyList官方通用规则' # EasyList官方通用规则
-        path: 'https://easylist-downloads.adblockplus.org/easylist.txt'
-      - name: 'EasyList中文分支规则' # EasyList中文分支规则
-        path: 'https://easylist-downloads.adblockplus.org/easylistchina.txt'
-      - name: '隐私保护规则' # 隐私保护规则
-        path: 'https://easylist-downloads.adblockplus.org/easyprivacy.txt'
-      - name: '拦截诱导APP下载规则' # 拦截诱导APP下载规则
-        path: 'https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt'
+      #- name: 'EasyList官方通用规则' # EasyList官方通用规则
+       # path: 'https://easylist-downloads.adblockplus.org/easylist.txt'
+      #- name: 'EasyList中文分支规则' # EasyList中文分支规则
+       # path: 'https://easylist-downloads.adblockplus.org/easylistchina.txt'
+      #- name: '隐私保护规则' # 隐私保护规则
+      #  path: 'https://easylist-downloads.adblockplus.org/easyprivacy.txt'
+      #- name: '拦截诱导APP下载规则' # 拦截诱导APP下载规则
+      #  path: 'https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt'
       - name: '轻量通用广告拦截规则' # 轻量通用广告拦截规则
         path: 'https://raw.githubusercontent.com/sjhgvr/oisd/main/abp_small.txt'
       - name: 'AWAvenue 秋风广告规则' # 国内定制广告规则
@@ -46,8 +46,8 @@ application:
         path: 'https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt'
       - name: 'HG1 Rule' # 综合广告/弹窗拦截规则
         path: 'https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt'
-      - name: '个人私有规则' # 个性化广告/弹窗拦截规则
-        path: 'https://raw.githubusercontent.com/qq5460168/666/master/rules.txt'
+     # - name: '个人私有规则' # 个性化广告/弹窗拦截规则
+     #   path: 'https://raw.githubusercontent.com/qq5460168/666/master/rules.txt'
       - name: 'cjx annoyance' # 网页烦扰元素拦截规则
         path: 'https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt'
       - name: '番茄规则' # 番茄屠龙刀规则
@@ -58,10 +58,10 @@ application:
         path: ' https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts'
       - name: 'Y-hosts' # hosts
         path: ' https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt'
-      - name: '游戏规则' # 此规则游戏拦截
-        path: ' http://hgzs.uunat.com/yx.txt'
-      - name: 'DD-AD 完整规则' 
-        path: 'https://raw.githubusercontent.com/afwfv/DD-AD/refs/heads/release/easylist.txt'
+      #- name: '游戏规则' # 此规则游戏拦截
+      #  path: ' http://hgzs.uunat.com/yx.txt'
+      #- name: 'DD-AD 完整规则' 
+       # path: 'https://raw.githubusercontent.com/afwfv/DD-AD/refs/heads/release/easylist.txt'
 
 
     #本地规则请将文件放置到项目路径rule目录中
