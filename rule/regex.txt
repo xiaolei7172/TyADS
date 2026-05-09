@@ -1,11 +1,11 @@
 [天影-自用规则 Adblock List]
 ! ------------------------------------------------
 ! Title: 天影自用规则-当前规则：regex.txt
-! 更新时间: 2026-05-09 08:31:21
+! 更新时间: 2026-05-09 08:35:04
 ! 项目地址: https://github.com/xiaolei7172/TyADS
 ! 说   明: 整合个人喜爱规则，可能有误杀，介意勿用
 ! ------------------------------------------------
-! 👇This Part Merge from: SmartTV AGH (https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt)
+! 天影提示：👇以下规则来自👇: SmartTV AGH (https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt)
 |samsungcloudsolution.net^
 |samsungcloudsolution.com^
 ||fkp.samsungcloudsolution.
@@ -15,7 +15,28 @@
 ||fls-*.amazon.com^
 ||hbbtv.*.de^
 |lgtvsdp.com^
-! 👇This Part Merge from: DD-AD Rule (https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt)
+! 天影提示：👇以下规则来自👇: xinggsf Adblock Rule (https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt)
+||allyes.
+||icast.
+||gg.
+||union.
+||ad.
+||ads.
+||cnzz.
+||adsfile.
+||adserver.
+||adservice.
+||adpic.
+||sax.sina.
+||biz5.
+||adsense.
+||xmindchina.
+||ggg.
+||admaster.
+||googleadservices.
+||saxs.sina.
+||adsame.
+! 天影提示：👇以下规则来自👇: DD-AD Rule (https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt)
 @@||v*.douyinvod.com^
 ||ads*-normal-lf.zijieapi.com^
 @@||n*-lf-webcast-cdn-tos-ncdn.bytegecko.com^
@@ -72,28 +93,7 @@
 ||ads*-normal.zijieapi.com^
 @@||d*.static.yximgs.com^
 ||ads*-normal-lq.zijieapi.com.w.cdngslb.com^
-! 👇This Part Merge from: xinggsf Adblock Rule (https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt)
-||allyes.
-||icast.
-||gg.
-||union.
-||ad.
-||ads.
-||cnzz.
-||adsfile.
-||adserver.
-||adservice.
-||adpic.
-||sax.sina.
-||biz5.
-||adsense.
-||xmindchina.
-||ggg.
-||admaster.
-||googleadservices.
-||saxs.sina.
-||adsame.
-! 👇This Part Merge from: AdGuard Chinese (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt)
+! 天影提示：👇以下规则来自👇: AdGuard Chinese (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt)
 ||tw-726620180914.*.run.app^
 ||38.33.15.*.gif
 ||zhizhizhizhi.oss-*.aliyuncs.com^
@@ -107,7 +107,7 @@
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 ||107.167.22.*.gif
-! 👇This Part Merge from: jiekouAD (https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt)
+! 天影提示：👇以下规则来自👇: jiekouAD (https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt)
 ||zcchyr*.xyz^
 ||js.*2023*.live^
 ||zaqlovh*.xyz^
@@ -133,7 +133,7 @@
 ||zahrvfbd*.xyz^
 ||zbc6hy*.live^
 @@||cdn-msp*.18comic*.*^
-! 👇This Part Merge from: HG1 Rule (https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt)
+! 天影提示：👇以下规则来自👇: HG1 Rule (https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt)
 ||fake-domain^
 ||aphone_pv_log.kltb.com.cn^
 ||vzyk92c4.yhcdn-yd.com.^
@@ -195,7 +195,17 @@
 ||kps230.^
 ||3132372e302e302e31^
 ||xn--487-t28du2cm9hwtc0z4b3p0a1t2f^
-! 👇This Part Merge from: AdGuard Chinese (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt)
+! 天影提示：👇以下规则来自👇: HG1 Rule (https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt)
+||sunyonga^
+||xchcmmtn2z.^
+||yd11_13-site-02.cdn-ng.net^
+||tx-adaptive.^
+||yd11_13-site-02.^
+||taluo-h5res.*.com^
+||shuixiands.^
+! 天影提示：👇以下规则来自👇: cjx annoyance (https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt)
+||acookie.*.gif?
+! 天影提示：👇以下规则来自👇: AdGuard Chinese (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt)
 ||sax*.sina.
 ||adi*.cnool.net^
 ||same*.stockstar.com^
@@ -206,15 +216,7 @@
 ||sam*.baby-kingdom.com^
 ||impservice*.yodao.com^
 ||ja*.gamersky.com^
-! 👇This Part Merge from: HG1 Rule (https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt)
-||sunyonga^
-||xchcmmtn2z.^
-||yd11_13-site-02.cdn-ng.net^
-||tx-adaptive.^
-||yd11_13-site-02.^
-||taluo-h5res.*.com^
-||shuixiands.^
-! 👇This Part Merge from: AdGuard Chinese (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt)
+! 天影提示：👇以下规则来自👇: AdGuard Chinese (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt)
 ||bdcpro*.techweb.com.cn^
 ||dm*.yxlady.com^
 ||uc*.atobo.com^
@@ -234,9 +236,17 @@
 ||static*.365inews.com^
 ||union*.365inews.com^
 ||ysdm*.ys137.com.cn^
-! 👇This Part Merge from: cjx annoyance (https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt)
-||acookie.*.gif?
-! 👇This Part Merge from: qq5460168 Rules (https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)
+! 天影提示：👇以下规则来自👇: AdGuard Base (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
+||reachableads-av.*.amazonaws.com^
+||counter*.stat.ovh^
+||ads.livetv*.me^
+||advert*.livesportmedia.eu^
+||ad-host-backup-*.aliyuncs.com^
+||fxhpaoxqyajvmdg.
+||rgfftupf.
+||prebid-*.rubiconproject.com^
+||advertising.civitai.
+! 天影提示：👇以下规则来自👇: qq5460168 Rules (https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)
 ||dl_dir2.qq.com^
 @@||t*img.yangkeduo.com^
 @@||upos-*-estg*.bilivideo.com^
@@ -314,9 +324,7 @@
 @@||v*-fq-tts.fqnovelvod.com^
 ||firebaselogging-*.googleapis.com^
 ||access.pangolin-sdk-toutiao-*.com^
-! 👇This Part Merge from: EasyList (https://easylist-downloads.adblockplus.org/easylist.txt)
-||get-me-wow.
-! 👇This Part Merge from: qq5460168 Rules (https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)
+! 天影提示：👇以下规则来自👇: qq5460168 Rules (https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)
 ||p*.adkwai.com^
 ||sf*-fe-tos.pglstatp-toutiao.com^
 ||pangolin-sdk-toutiao*.com^
@@ -352,7 +360,7 @@
 ||polaris*-normal-lq.zijieapi.com^
 ||pagead*.googleadservices-cn.com^
 ||thu15.*.com^
-! 👇This Part Merge from: anti-ad ( https://anti-ad.net/adguard.txt)
+! 天影提示：👇以下规则来自👇: anti-ad ( https://anti-ad.net/adguard.txt)
 ||da.hornbach.*^
 ||admob.*^
 ||ping.*.sogou.com^
@@ -400,27 +408,62 @@
 ||ad-*.com^
 ||ads*-adnow.com^
 ||adwords*.*^
-! 👇This Part Merge from: EasyPrivacy (https://easylist-downloads.adblockplus.org/easyprivacy.txt)
+! 天影提示：👇以下规则来自👇: AdGuard Base (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
+||gamenguide.com*adbk
+||pijama.*.elasticbeanstalk.com^
+||itechpost.com*adbk
+! 天影提示：👇以下规则来自👇: EasyPrivacy (https://easylist-downloads.adblockplus.org/easyprivacy.txt)
 ||bc.geocities.
-%2Fopen.aspx%3F
 ||collector-*.luigisbox.com^
+||stats-*.p2pnow.ru^
+||mcdp-*.outbrain.com^
+||stats2.*.fdnames.com^
+||adservice.google.
+||tracker.twenga.
+||fb_servpub-a.akamaihd.net^
+%2Fopen.aspx%3F
+||aff*.kolektiva.net^
 ||geotargetly-api-*.com^
 %2Frw%2Fbeacon_
 ||log-*.previewnetworks.com^
-||mcdp-*.outbrain.com^
-||adservice.google.
 %2Fevent.gif%3F
-! 👇This Part Merge from: AdGuard Base (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
-||reachableads-av.*.amazonaws.com^
-||counter*.stat.ovh^
-||ads.livetv*.me^
-||advert*.livesportmedia.eu^
-||ad-host-backup-*.aliyuncs.com^
-||fxhpaoxqyajvmdg.
-||rgfftupf.
-||prebid-*.rubiconproject.com^
-||advertising.civitai.
-! 👇This Part Merge from: EasyList (https://easylist-downloads.adblockplus.org/easylist.txt)
+! 天影提示：👇以下规则来自👇: EasyPrivacy (https://easylist-downloads.adblockplus.org/easyprivacy.txt)
+||ubt.tracking.shopee.
+||tccd.douglas.
+||ub.galaxus.
+||hn-ping*.hashnode.com^
+||sst.carwow.
+||servo-report.dvdfab.
+||analytics-api.dvdfab.
+||df.infra.sz.shopee.
+||pixel.archive.
+||aviasales.*-analytics.
+||analytics.ticketmaster.
+||faro-collector-prod-*.grafana.net^
+||df.infra.shopee.
+! 天影提示：👇以下规则来自👇: AdGuard Base (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
+Banner468x60
+! 天影提示：👇以下规则来自👇: AdGuard Base (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
+||fapnado.*.php|
+! 天影提示：👇以下规则来自👇: EasyPrivacy (https://easylist-downloads.adblockplus.org/easyprivacy.txt)
+||stw.extreme-down.
+||stats.zone-annuaire.
+||stat.*.v-56.com^
+||matt.mercadolibre.
+||mr.allegro.
+||sta.zone-telechargement.
+||stats*.credit-cooperatif.coop^
+||sta.wawacity.
+||stats.zone-telechargement.
+! 天影提示：👇以下规则来自👇: EasyList (https://easylist-downloads.adblockplus.org/easylist.txt)
+||get-me-wow.
+! 天影提示：👇以下规则来自👇: AdGuard Base (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
+rgmechanicsgames.com*VPN.exe
+||ads*.dfiles.eu^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
+||ads*.dfiles.ru^
+! 天影提示：👇以下规则来自👇: EasyList (https://easylist-downloads.adblockplus.org/easylist.txt)
 ||increase*-rev.static-cloudflare.workers.dev^
 ||increase*rev.static-cloudflare.workers.dev^
 ||increase-rev*.static-cloudflare.workers.dev^
@@ -432,57 +475,13 @@
 ||allsportsflix.
 |167.206.10.148^
 ||23.109.87.
-! 👇This Part Merge from: EasyPrivacy (https://easylist-downloads.adblockplus.org/easyprivacy.txt)
-||stats-*.p2pnow.ru^
-||ubt.tracking.shopee.
-||tccd.douglas.
-||ub.galaxus.
-||hn-ping*.hashnode.com^
-||sst.carwow.
-||stats2.*.fdnames.com^
-||servo-report.dvdfab.
-||tracker.twenga.
-||fb_servpub-a.akamaihd.net^
-||analytics-api.dvdfab.
-||aff*.kolektiva.net^
-||df.infra.sz.shopee.
-||pixel.archive.
-||aviasales.*-analytics.
-||analytics.ticketmaster.
-||faro-collector-prod-*.grafana.net^
-||df.infra.shopee.
-! 👇This Part Merge from: AdGuard Base (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
-||gamenguide.com*adbk
-||pijama.*.elasticbeanstalk.com^
-||itechpost.com*adbk
-! 👇This Part Merge from: EasyPrivacy (https://easylist-downloads.adblockplus.org/easyprivacy.txt)
-||stw.extreme-down.
-||stats.zone-annuaire.
-||sta.zone-telechargement.
-||stats*.credit-cooperatif.coop^
-||sta.wawacity.
-||stats.zone-telechargement.
-! 👇This Part Merge from: EasyPrivacy (https://easylist-downloads.adblockplus.org/easyprivacy.txt)
-||stat.*.v-56.com^
-||matt.mercadolibre.
-||mr.allegro.
-! 👇This Part Merge from: AdGuard Base (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
-Banner468x60
-! 👇This Part Merge from: AdGuard Base (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
-||fapnado.*.php|
-! 👇This Part Merge from: AdGuard Base (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
-rgmechanicsgames.com*VPN.exe
-||ads*.dfiles.eu^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
-||ads*.dfiles.ru^
-! 👇This Part Merge from: 游戏规则 ( http://hgzs.uunat.com/yx.txt)
+! 天影提示：👇以下规则来自👇: 游戏规则 ( http://hgzs.uunat.com/yx.txt)
 ||sanguo_web.185slg.com^
 ||bigpatchlist^
 ||patchlistbin^
 ||sgdts_center.ulugame.com^
 ||asset_query.mini1.cn^
-! 👇This Part Merge from: AdGuard Base (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
+! 天影提示：👇以下规则来自👇: AdGuard Base (https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)
 ||ads*.opensubtitles.org^
 ||s*.skencituer.com^
 ||hostingcloud.*.wasm^
