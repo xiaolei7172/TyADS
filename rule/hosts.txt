@@ -1,11 +1,11 @@
 [天影-自用规则 Adblock List]
 ! ------------------------------------------------
 ! Title: 天影自用规则-当前规则：hosts.txt
-! 更新时间: 2026-05-09 08:40:46
+! 更新时间: 2026-05-09 08:47:22
 ! 项目地址: https://github.com/xiaolei7172/TyADS
 ! 说   明: 整合个人喜爱规则，可能有误杀，介意勿用
 ! ------------------------------------------------
-! 天影提示：👇以下规则来自👇: 个人私有规则 (https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)
+! 天影提示👇以下规则来自： 个人私有规则 (https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)
 0.0.0.0 monitor.ads.8le8le.com
 0.0.0.0 track.aso1.net
 127.0.0.1 report.cms.qq.com
@@ -9992,7 +9992,7 @@
 127.0.0.1 img1.g.pptv.com
 0.0.0.0 usr-api.aiclk.com
 0.0.0.0 c1.ifengimg.com
-! 天影提示：👇以下规则来自👇: 个人私有规则 (https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)
+! 天影提示👇以下规则来自： 个人私有规则 (https://raw.githubusercontent.com/qq5460168/666/master/rules.txt)
 127.0.0.1 syndication.twitter.com
 127.0.0.1 www.jd-mail.co.uk
 127.0.0.1 v12-j0954dl1xdl.z.irs01.com
@@ -11191,7 +11191,7 @@
 140.82.112.18 github.community
 127.0.0.1 tmead.y.qq.com
 127.0.0.1 track.uc.cn
-! 天影提示：👇以下规则来自👇: Y-hosts ( https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt)
+! 天影提示👇以下规则来自： Y-hosts ( https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt)
 0.0.0.0 m1.mgogo.com
 0.0.0.0 cap.cyberlink.com
 0.0.0.0 ad.pchome.com.tw
