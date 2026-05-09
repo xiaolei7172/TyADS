@@ -1,5 +1,9 @@
+# 工作流名称：Update Filters（更新过滤规则）
 name: Update Filters
+
+# 触发条件配置（新增定时+保留原有触发方式）
 on:
+  # 1. 代码推送触发（仅main分支，排除指定文件）
   push:
     paths-ignore:
       - 'README.md'
@@ -8,8 +12,13 @@ on:
       - '.devcontainer/**'
       - 'LICENSE'
     branches: [ main ]
+  # 2. 手动触发
   workflow_dispatch:
+  # 3. 新增：每8小时自动触发（UTC时区，对应北京时间+8小时）
+  schedule:
+    - cron: '0 */8 * * *'
 
+# 环境变量配置
 env:
   TZ: Asia/Shanghai
 
@@ -37,7 +46,7 @@ jobs:
         id: commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 🚀 CI Updated
+          commit_message: 🚀 Ty Updated
 
       - name: GitHub Push
         if: steps.commit.outputs.changes_detected == 'true'
