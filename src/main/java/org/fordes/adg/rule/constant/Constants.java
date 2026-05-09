@@ -22,7 +22,7 @@ public class Constants {
     /**
      * 分段规则来源
      */
-    public static final String PART_TEMPLATE = "! 👇This Part Merge from: {}\n";
+    public static final String PART_TEMPLATE = "! 天影提示：👇以下规则来自👇: {}\n";
 
     /**
      * 日期占位符
