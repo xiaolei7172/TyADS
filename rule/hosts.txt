@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-05-22 18:56:07 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-05-23 01:58:07 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -2496,7 +2496,6 @@
 0.0.0.0 legfrissebb.info
 0.0.0.0 iceman30.de
 0.0.0.0 gads.pubmatic.com
-0.0.0.0 sspcash.adxcore.com
 0.0.0.0 globalnews247.net
 0.0.0.0 xhealthmobiletools.112.2o7.net
 0.0.0.0 hhvdds.com
@@ -3638,7 +3637,6 @@
 0.0.0.0 www.balassst.com
 0.0.0.0 track.msadcenter.kfz.com
 0.0.0.0 ismailersoz.com
-0.0.0.0 ssp.streamrail.net
 0.0.0.0 www.thisplanet.net
 0.0.0.0 r3.ritikajoshi.com
 0.0.0.0 agriturismoilcascinone.com
@@ -3836,6 +3834,7 @@
 0.0.0.0 speedclicks.ero-advertising.com
 0.0.0.0 ads.newsminerextra.com
 0.0.0.0 www.counter13.sextracker.be
+0.0.0.0 benefitsaccountreport.es
 0.0.0.0 gimp.es
 0.0.0.0 d4q8zgf756.com
 0.0.0.0 adserv2.bravenet.com
@@ -4160,6 +4159,7 @@
 0.0.0.0 e-loading.biz
 0.0.0.0 jivox.com
 0.0.0.0 bactif.fr
+0.0.0.0 www.bankofcounty.com
 0.0.0.0 eslprologmvp.com
 0.0.0.0 ohmydating.com
 0.0.0.0 spinbox.freedom.com
@@ -6677,6 +6677,7 @@
 0.0.0.0 freevideodownloadforpc.com
 0.0.0.0 track.msadcenter.qpz.com
 0.0.0.0 www1.counter.bloke.com
+0.0.0.0 www.dustinjonesgolfacademy.com
 0.0.0.0 onclickmega.com
 0.0.0.0 news-news.co
 0.0.0.0 httpring.qq.com
@@ -7468,6 +7469,7 @@
 0.0.0.0 bulktheft.com
 0.0.0.0 ads.sfusion.com
 0.0.0.0 pm.w55c.net
+0.0.0.0 www.orangesalonboise.com
 0.0.0.0 errorfixing.space
 0.0.0.0 office2023.net
 0.0.0.0 stat.webmedia.pl
@@ -7747,7 +7749,6 @@
 0.0.0.0 garant.bos.ru
 0.0.0.0 www.stihil.com
 0.0.0.0 ads2-adnow.com
-0.0.0.0 ssp.seznam.cz
 0.0.0.0 macaxpower.com.br
 0.0.0.0 onedrive-download-en.com
 0.0.0.0 lcprd2.samsungcloudsolution.net
@@ -8715,7 +8716,6 @@
 0.0.0.0 scribbens.fr
 0.0.0.0 speakplanet.fr
 0.0.0.0 closefly.com
-0.0.0.0 st.blogads.com
 0.0.0.0 www.rnodernssolution.com
 0.0.0.0 kitaramarketplace.com
 0.0.0.0 media5021.videostrip.com
@@ -9088,7 +9088,6 @@
 0.0.0.0 hurricaneprotection.com
 0.0.0.0 naturainmente.com
 0.0.0.0 reporting.aatkit.com
-0.0.0.0 ssp.imedia.cz
 0.0.0.0 ads.netbul.com
 0.0.0.0 sideshow.directtrack.com
 0.0.0.0 www.infopaypal.com
@@ -11585,6 +11584,7 @@
 0.0.0.0 api-s2s.taboola.com
 0.0.0.0 serving.stat-rock.com
 0.0.0.0 ads138.console.adtarget.com.tr
+0.0.0.0 www.lacocinany.com
 0.0.0.0 www.sumgaydigital.com
 0.0.0.0 c5.zedo.com
 0.0.0.0 ad-mediation.tuanguwen.com
@@ -12555,6 +12555,7 @@
 0.0.0.0 hg13.hitbox.com
 0.0.0.0 te.signonsandiego.com
 0.0.0.0 cheap-adipex.hut1.ru
+0.0.0.0 sspcash.adxcore.com
 0.0.0.0 mortgage-rates.now-cash.com
 0.0.0.0 thamescom.com
 0.0.0.0 www.jiztini.com
@@ -12780,6 +12781,7 @@
 0.0.0.0 oascentral.starbulletin.com
 0.0.0.0 www.aero-source.net
 0.0.0.0 www.vtoyshop.com
+0.0.0.0 ssp.seznam.cz
 0.0.0.0 ts-shimada.com
 0.0.0.0 www.bovadapromotions.lv
 0.0.0.0 webcompteur.com
@@ -13730,6 +13732,7 @@
 0.0.0.0 www.canuckmethods.com
 0.0.0.0 www.bigbangempire.com
 0.0.0.0 www.friendlyduck.com
+0.0.0.0 ssp.streamrail.net
 0.0.0.0 www.myuitm.com
 0.0.0.0 www.shorthouse.com
 0.0.0.0 tpt.dotomi.com
@@ -13779,6 +13782,7 @@
 0.0.0.0 www.sponsoradulto.com
 0.0.0.0 tsp2002.com
 0.0.0.0 www.fatcatrewards.com
+0.0.0.0 st.blogads.com
 0.0.0.0 tw2.adserver.yahoo.com
 0.0.0.0 www.friendgreetings.com
 0.0.0.0 www.adverterenbijrtl.nl
@@ -14209,6 +14213,7 @@
 0.0.0.0 www.linkpulse.com
 0.0.0.0 www.placelocal.com
 0.0.0.0 taboola.com
+0.0.0.0 ssp.imedia.cz
 0.0.0.0 stats.appsflyer.com
 0.0.0.0 theketo-complete.com
 0.0.0.0 video-bazis.com
