@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-06-16 20:59:40 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-06-17 03:41:45 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -2367,6 +2367,7 @@
 0.0.0.0 shares-cloud.com
 0.0.0.0 ds.contextweb.com
 0.0.0.0 adservice.google.cz
+0.0.0.0 www.meeseger.com
 0.0.0.0 traffic.spot.im
 0.0.0.0 ads.intellicast.com
 0.0.0.0 wait3sec.org
@@ -2498,7 +2499,6 @@
 0.0.0.0 gcirm.delawareonline.com
 0.0.0.0 www.counter2.sextracker.be
 0.0.0.0 deloton.com
-0.0.0.0 slimspots.com
 0.0.0.0 aff3.gittigidiyor.com
 0.0.0.0 www.robkellysurf.com
 0.0.0.0 regie.espace-plus.net
@@ -3309,6 +3309,7 @@
 0.0.0.0 impno.tradedoubler.com
 0.0.0.0 www.barjacity.com
 0.0.0.0 partner-ts.groupon.be
+0.0.0.0 www.regulationprofit.bond
 0.0.0.0 www.knowinteractive.com
 0.0.0.0 banners.tribute.ca
 0.0.0.0 bubblesweetcake.com
@@ -3828,7 +3829,6 @@
 0.0.0.0 2975c.v.fwmrm.net
 0.0.0.0 counter28.bravenet.com
 0.0.0.0 facemail.com
-0.0.0.0 slhk23.0101host.com
 0.0.0.0 ewsnaples.112.2o7.net
 0.0.0.0 track.msadcenter.hih.com
 0.0.0.0 keepass.com
@@ -4811,6 +4811,7 @@
 0.0.0.0 mediafaze.com
 0.0.0.0 amazon-adsystem.com
 0.0.0.0 www.mshelp247.weebly.com
+0.0.0.0 www.anyik.com
 0.0.0.0 www.higherteam.com
 0.0.0.0 web-hoster.co
 0.0.0.0 ad2.zophar.net
@@ -7412,7 +7413,6 @@
 0.0.0.0 c.za.msn.com
 0.0.0.0 ascout24.oewabox.at
 0.0.0.0 ads.directionsmag.com
-0.0.0.0 slowmac.tech
 0.0.0.0 viewstracker.com
 0.0.0.0 smser.net
 0.0.0.0 lucky-day-uk.com
@@ -12429,6 +12429,7 @@
 0.0.0.0 vu.veoxa.com
 0.0.0.0 loestrin.1.p2l.info
 0.0.0.0 www.ssquire.plus.com
+0.0.0.0 slowmac.tech
 0.0.0.0 the-binary-trader.biz
 0.0.0.0 1priest1nun.com
 0.0.0.0 www.star-advertising.com
@@ -12579,6 +12580,7 @@
 0.0.0.0 xoomer.alice.it
 0.0.0.0 www.clickthrutraffic.com
 0.0.0.0 scrollbelow.com
+0.0.0.0 slimspots.com
 0.0.0.0 www.clicksor.com
 0.0.0.0 www.freecamsexposed.com
 0.0.0.0 ca.5.p2l.info
@@ -13982,6 +13984,7 @@
 0.0.0.0 www.adsensecustomsearchads.com
 0.0.0.0 www.casino770.com
 0.0.0.0 www.addthis.com
+0.0.0.0 slhk23.0101host.com
 0.0.0.0 www.buyhitscheap.com
 0.0.0.0 www.talentbroker.net
 0.0.0.0 syndication.exdynsrv.com
