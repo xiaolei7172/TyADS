@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-06-26 02:17:57 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-06-26 12:13:37 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -2640,6 +2640,7 @@
 0.0.0.0 ph-ad09.focalink.com
 0.0.0.0 adserver2.creative.com
 0.0.0.0 hlcc.ca
+0.0.0.0 www.meecheck.com
 0.0.0.0 www.novosantiago.com
 0.0.0.0 mob.adwhirl.com
 0.0.0.0 track.msadcenter.jzz.com
@@ -3902,7 +3903,6 @@
 0.0.0.0 b.liquidustv.com
 0.0.0.0 media3.popmarker.com
 0.0.0.0 ox-i.zenoviagroup.com
-0.0.0.0 show-msgch.qq.com
 0.0.0.0 adserver2.mediainsight.de
 0.0.0.0 hosting.adjug.com
 0.0.0.0 gparted.fr
@@ -5296,7 +5296,6 @@
 0.0.0.0 adserver.theknot.com
 0.0.0.0 js-sec.indexww.com
 0.0.0.0 reservationszone.com
-0.0.0.0 showads1000.pubmatic.com
 0.0.0.0 aschreib.oewabox.at
 0.0.0.0 stats.globesports.com
 0.0.0.0 aus-mec-tracking.adalyser.com
@@ -7762,6 +7761,7 @@
 0.0.0.0 publishing.kalooga.com
 0.0.0.0 mineacraft.fr
 0.0.0.0 ads.as4x.tmcs.net
+0.0.0.0 www.nftnavigator.com
 0.0.0.0 c.za.msn.com
 0.0.0.0 ascout24.oewabox.at
 0.0.0.0 ads.directionsmag.com
@@ -12846,6 +12846,7 @@
 0.0.0.0 www.u1trkqf.com
 0.0.0.0 weight-loss.3.p2l.info
 0.0.0.0 ws05.home.sapo.pt
+0.0.0.0 showads1000.pubmatic.com
 0.0.0.0 www.ftjcfx.com
 0.0.0.0 www.burstnet.com
 0.0.0.0 vilagfigyelo.com
@@ -14046,6 +14047,7 @@
 0.0.0.0 ns1.hitbox.com
 0.0.0.0 phentermine.3.p2l.info
 0.0.0.0 ms.5.p2l.info
+0.0.0.0 show-msgch.qq.com
 0.0.0.0 www.carnegienet.net
 0.0.0.0 prevacid.1.p2l.info
 0.0.0.0 octopusgirl.com
