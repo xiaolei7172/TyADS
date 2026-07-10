@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-07-10 19:10:50 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-07-11 01:50:51 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -4341,6 +4341,7 @@
 0.0.0.0 secserv.adtech.us
 0.0.0.0 adverteren.vakmedianet.nl
 0.0.0.0 paintnet.fr
+0.0.0.0 www.sapiatinsurance.com
 0.0.0.0 www.baiakstyle.com
 0.0.0.0 ad19digital.checkm8.com
 0.0.0.0 adsrv.lua.pl
@@ -7514,7 +7515,6 @@
 0.0.0.0 banki.onet.pl
 0.0.0.0 lmadvertising.engine.adglare.net
 0.0.0.0 c.gr.msn.com
-0.0.0.0 services.adtech.fr
 0.0.0.0 api.behavioralengine.com
 0.0.0.0 puppylover.fr
 0.0.0.0 boldconclusion.com
@@ -9742,7 +9742,6 @@
 0.0.0.0 c.adroll.com
 0.0.0.0 hmizat.co
 0.0.0.0 new-vid-zone-1.blogspot.com.au
-0.0.0.0 servicer.mgid.com
 0.0.0.0 shop.skin-safety.com
 0.0.0.0 rpc-php.trafficfactory.biz
 0.0.0.0 cdn-gl.imrworldwide.com
@@ -11826,6 +11825,7 @@
 0.0.0.0 handcraftedformat.com
 0.0.0.0 piecediscount24.fr
 0.0.0.0 impnl.tradedoubler.com
+0.0.0.0 healthit.live
 0.0.0.0 adexc.net
 0.0.0.0 authenticangry.com
 0.0.0.0 corp-downloads.com
@@ -12202,6 +12202,7 @@
 0.0.0.0 www.videomediagroep.nl
 0.0.0.0 w11.hitbox.com
 0.0.0.0 tracker.awr.im
+0.0.0.0 servicer.mgid.com
 0.0.0.0 socom.es
 0.0.0.0 www.servedby-buysellads.com
 0.0.0.0 v.extreme-dm.com
@@ -12557,6 +12558,7 @@
 0.0.0.0 sh2070.evanzo-server.de
 0.0.0.0 oascentral.clearchannel.com
 0.0.0.0 www.websitepromoten.be
+0.0.0.0 services.adtech.fr
 0.0.0.0 www.freeipoduk.co.uk
 0.0.0.0 tsbm.ch
 0.0.0.0 vidroll.ru
