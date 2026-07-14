@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-07-14 01:59:13 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-07-14 10:54:52 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -2499,7 +2499,6 @@
 0.0.0.0 app4.letslowbefast.life
 0.0.0.0 hakuba.janis.or.jp
 0.0.0.0 ads.pressdemo.com
-0.0.0.0 service004.adtech.fr
 0.0.0.0 vcm.oewabox.at
 0.0.0.0 foiegras-groliere.fr
 0.0.0.0 rottentomatoes.fr
@@ -4982,6 +4981,7 @@
 0.0.0.0 ad2.pl
 0.0.0.0 c.it.msn.com
 0.0.0.0 ads.profitsdeluxe.com
+0.0.0.0 thesciencequest.info
 0.0.0.0 www.trafficmagnet.net # web bugs in spam
 0.0.0.0 ecirque.fr
 0.0.0.0 clicks.roularta.adhese.com
@@ -5257,6 +5257,7 @@
 0.0.0.0 getagiftonline.com
 0.0.0.0 urlsync.com
 0.0.0.0 smile-angel.com
+0.0.0.0 www.allinvideo.com
 0.0.0.0 tzmqyj.com
 0.0.0.0 yourbestclothes.com
 0.0.0.0 monitor.oewabox.at
@@ -5687,6 +5688,7 @@
 0.0.0.0 u604.41.spylog.com
 0.0.0.0 ads.phillyburbs.com
 0.0.0.0 ads.harpers.org
+0.0.0.0 genuinepeople.cc
 0.0.0.0 pro.letv.com
 0.0.0.0 l-histoire.fr
 0.0.0.0 www.teafortune.com
@@ -6217,7 +6219,6 @@
 0.0.0.0 www.gpolitico.com
 0.0.0.0 ad8.adfarm1.adition.com
 0.0.0.0 media.liquidus.net
-0.0.0.0 service002.adtech.us
 0.0.0.0 et-mycostcorewards.info
 0.0.0.0 lepoinf.fr
 0.0.0.0 e-2dj6wfkiakdjgcp.stats.esomniture.com
@@ -6874,7 +6875,6 @@
 0.0.0.0 ns1.multi.net.pk
 0.0.0.0 net-protector.com
 0.0.0.0 ad.doganburda.com
-0.0.0.0 service003.adtech.fr
 0.0.0.0 link4win.net
 0.0.0.0 rightstats.com
 0.0.0.0 campus-forprof.fr
@@ -7167,7 +7167,6 @@
 0.0.0.0 admarkt.marktplaats.nl
 0.0.0.0 eyestoip.com
 0.0.0.0 www.ultimatecounter.com
-0.0.0.0 service003.adtech.us
 0.0.0.0 c.br.msn.com
 0.0.0.0 solamor.com
 0.0.0.0 www.e-transfer-cra.com
@@ -12490,6 +12489,7 @@
 0.0.0.0 www.expoteam.net
 0.0.0.0 static.chartbeat.com
 0.0.0.0 www.christianbusinessadvertising.com
+0.0.0.0 service004.adtech.fr
 0.0.0.0 oascentral.comics.com
 0.0.0.0 nf.5.p2l.info
 0.0.0.0 traffictraders.com
@@ -13888,6 +13888,7 @@
 0.0.0.0 te.thestar.ca
 0.0.0.0 www.taboola.com
 0.0.0.0 cyberscat.com
+0.0.0.0 service002.adtech.us
 0.0.0.0 ssp.adplus.co.id
 0.0.0.0 www35jm.glam.com
 0.0.0.0 track.omgpl.com
@@ -14673,6 +14674,7 @@
 0.0.0.0 te.sfgate.com
 0.0.0.0 www.mjonkers.nl
 0.0.0.0 retin-a.1.p2l.info
+0.0.0.0 service003.adtech.fr
 0.0.0.0 www.smichovbike.cz
 0.0.0.0 mrtg.hitbox.com
 0.0.0.0 www.skattabrain.com
@@ -15021,6 +15023,7 @@
 0.0.0.0 creampie.afdss.info
 0.0.0.0 wdm29.com
 0.0.0.0 buy-xanax.aztecaonline.net
+0.0.0.0 service003.adtech.us
 0.0.0.0 spaces.slimspots.com
 0.0.0.0 showadsak.pubmatic.com
 0.0.0.0 stage102.hitbox.com
