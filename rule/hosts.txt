@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-07-18 01:17:19 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-07-18 10:54:46 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -2876,7 +2876,6 @@
 0.0.0.0 www3.addfreestats.com
 0.0.0.0 mg.mgid.com
 0.0.0.0 popups.infostart.com
-0.0.0.0 service.adtech.fr
 0.0.0.0 www.tattooshaha.info			# Facebook trojan
 0.0.0.0 ads2.pittsburghlive.com
 0.0.0.0 dldyjy.com
@@ -5985,6 +5984,7 @@
 0.0.0.0 admerize.be
 0.0.0.0 post.rmbn.ru
 0.0.0.0 go.lfstmedia.com
+0.0.0.0 www.cpension.com
 0.0.0.0 extrahoney.net
 0.0.0.0 ad.ne.com
 0.0.0.0 link2me.ru
@@ -6624,6 +6624,7 @@
 0.0.0.0 oechestra.fr
 0.0.0.0 bannerpower.com
 0.0.0.0 fafarge.fr
+0.0.0.0 www.cjtest.com
 0.0.0.0 advertise.com
 0.0.0.0 4c28d6.r.axf8.net
 0.0.0.0 computersoostynaarlo.nl
@@ -6698,7 +6699,6 @@
 0.0.0.0 bannersurvey.biz
 0.0.0.0 ads.mycricket.com
 0.0.0.0 adsoldier.com
-0.0.0.0 server821.com
 0.0.0.0 mgwsls.112.2o7.net
 0.0.0.0 ad6.checkm8.com
 0.0.0.0 serv.ad-rotator.com
@@ -10224,6 +10224,7 @@
 0.0.0.0 klikk.linkpulse.com
 0.0.0.0 ads.ad-center.com
 0.0.0.0 mail.interq.or.jp
+0.0.0.0 www.compacfurniture.com
 0.0.0.0 hotdesertknights.fr
 0.0.0.0 chubaka.org
 0.0.0.0 users.maxcluster.net
@@ -11936,7 +11937,6 @@
 0.0.0.0 uqz.com
 0.0.0.0 nytrgainseville.112.2o7.net
 0.0.0.0 www.snurrlyspin.com
-0.0.0.0 service.adtech.us
 0.0.0.0 hit10.hotlog.ru
 0.0.0.0 efreedom.net
 0.0.0.0 gezinti.com
@@ -12979,6 +12979,7 @@
 0.0.0.0 z1.adserver.com
 0.0.0.0 vt.5.p2l.info
 0.0.0.0 tags.tagcade.com
+0.0.0.0 service.adtech.fr
 0.0.0.0 titokterminal.com
 0.0.0.0 www3.webhostingtalk.com
 0.0.0.0 www.selfpwn.org
@@ -14464,6 +14465,7 @@
 0.0.0.0 fahrrad.bikesshop.de
 0.0.0.0 www30a2-orig.glam.com
 0.0.0.0 www.friend-card.com
+0.0.0.0 server821.com
 0.0.0.0 www.freenation.com
 0.0.0.0 webwise.bt.com
 0.0.0.0 www.hotkeys.com
@@ -14764,6 +14766,7 @@
 0.0.0.0 shichihukuudon.com
 0.0.0.0 tongji.baidu.com
 0.0.0.0 www.users.dialstart.net
+0.0.0.0 service.adtech.us
 0.0.0.0 static.youmi.net
 0.0.0.0 sol-images.adbureau.net
 0.0.0.0 www.topconsumergifts.com
