@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-07-29 01:39:36 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-07-29 11:15:41 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -8553,7 +8553,6 @@
 0.0.0.0 blu.mobileads.msn.com
 0.0.0.0 cdn.syn.verticalacuity.com
 0.0.0.0 ads.adbroker.de
-0.0.0.0 serv2.ad-rotator.com
 0.0.0.0 nikeinc.fr
 0.0.0.0 perfecct.sa.com
 0.0.0.0 LUXpolice.net
@@ -13652,6 +13651,7 @@
 0.0.0.0 yourgiftrewards.com
 0.0.0.0 www.radiate.com
 0.0.0.0 w147.hitbox.com
+0.0.0.0 serv2.ad-rotator.com
 0.0.0.0 x-images.com
 0.0.0.0 oascentral.townhall.com
 0.0.0.0 ehg-acdsystems.hitbox.com
