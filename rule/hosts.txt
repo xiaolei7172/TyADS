@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-08-06 18:44:41 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-08-07 10:54:31 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -1983,6 +1983,7 @@
 0.0.0.0 bn2-ris-prod-atm.trafficmanager.net
 0.0.0.0 cds21249.lon.llnw.net
 0.0.0.0 hk2sch130021634.wns.windows.com
+0.0.0.0 a.ads2.msn.com
 0.0.0.0 cds54.ory.llnw.net
 0.0.0.0 bn4sch101123110.wns.windows.com
 0.0.0.0 bn4sch101120814.wns.windows.com
@@ -2086,6 +2087,7 @@
 0.0.0.0 cds20482.lcy.llnw.net
 0.0.0.0 hk2sch130021852.wns.windows.com
 0.0.0.0 cds840.lon.llnw.net
+0.0.0.0 ads1.msn.com
 0.0.0.0 hk2sch130021217.wns.windows.com
 0.0.0.0 cds406.lcy.llnw.net
 0.0.0.0 cds494.lcy.llnw.net
@@ -2168,6 +2170,7 @@
 0.0.0.0 b.ads1.msn.com
 0.0.0.0 hk2sch130021554.wns.windows.com
 0.0.0.0 msedge.net
+0.0.0.0 a.rad.msn.com
 0.0.0.0 bn3sch020020322.wns.windows.com
 0.0.0.0 cds1.stn.llnw.net
 0.0.0.0 db3aqu.atdmt.com
@@ -2184,6 +2187,7 @@
 0.0.0.0 v10-win.vortex.data.microsoft.com.akadns.net
 0.0.0.0 secure.adnxs.com
 0.0.0.0 cds407.fra.llnw.net
+0.0.0.0 b.rad.msn.com
 0.0.0.0 cds458.lcy.llnw.net
 0.0.0.0 win8.ipv6.microsoft.com
 0.0.0.0 spynetalt.microsoft.com
@@ -2200,6 +2204,7 @@
 0.0.0.0 cds483.lcy.llnw.net
 0.0.0.0 test.activity.windows.com
 0.0.0.0 hk2sch130021544.wns.windows.com
+0.0.0.0 adnxs.com
 0.0.0.0 cds836.lon.llnw.net
 0.0.0.0 bn4sch101123108.wns.windows.com
 0.0.0.0 cds21207.lon.llnw.net
@@ -2249,6 +2254,8 @@
 0.0.0.0 bn4sch101121714.wns.windows.com
 0.0.0.0 uks.b.prd.ags.trafficmanager.net
 0.0.0.0 cds1289.lon.llnw.net
+0.0.0.0 aka-cdn-ns.adtech.de
+0.0.0.0 bs.serving-sys.com
 0.0.0.0 cds21309.lon.llnw.net
 0.0.0.0 schemas.microsoft.akadns.net
 0.0.0.0 alpha.telemetry.microsoft.com
@@ -2275,6 +2282,7 @@
 0.0.0.0 aidps.atdmt.com
 0.0.0.0 hk2sch130020924.wns.windows.com
 0.0.0.0 ac3.msn.com
+0.0.0.0 a.ads1.msn.com
 0.0.0.0 cds21321.lon.llnw.net
 0.0.0.0 cds815.lon.llnw.net
 0.0.0.0 bn3sch020010560.wns.windows.com
@@ -2299,6 +2307,7 @@
 0.0.0.0 cds425.lcy.llnw.net
 0.0.0.0 hk2sch130021153.wns.windows.com
 0.0.0.0 onecollector.cloudapp.aria.akadns.net
+0.0.0.0 ads1.msads.net
 0.0.0.0 corp.sts.microsoft.com
 0.0.0.0 insideruser.trafficmanager.net
 0.0.0.0 cds1244.lon.llnw.net
@@ -2649,7 +2658,6 @@
 0.0.0.0 e-2dj6wfkocjczedo.stats.esomniture.com
 0.0.0.0 hatsampledc.com
 0.0.0.0 ab.tweakers.nl
-0.0.0.0 a.ads2.msn.com
 0.0.0.0 shiiva.fr
 0.0.0.0 voil-le-travail.fr
 0.0.0.0 foxcounter.com
@@ -2742,7 +2750,6 @@
 0.0.0.0 www.monkikitchen.com
 0.0.0.0 invelaconstructora.com
 0.0.0.0 ads.viber.com
-0.0.0.0 ads1.msn.com
 0.0.0.0 ad24digital.checkm8.com
 0.0.0.0 counteraport.spylog.com
 0.0.0.0 ad3.lbn.ru
@@ -3488,6 +3495,7 @@
 0.0.0.0 openx.adfactor.nl
 0.0.0.0 loga.xiti.com
 0.0.0.0 rewardsflow.com
+0.0.0.0 secure.bidvertiserr.com
 0.0.0.0 ukrpts.net
 0.0.0.0 ns2.webwise.org
 0.0.0.0 ads.stackoverflow.com
@@ -3780,7 +3788,6 @@
 0.0.0.0 www.mikras.nl
 0.0.0.0 magasine-omnicuiseur.fr
 0.0.0.0 paradise.homemortgageblog.info
-0.0.0.0 b.rad.msn.com
 0.0.0.0 7xc4n.com
 0.0.0.0 canuckmethod.com
 0.0.0.0 answerhub.com
@@ -3891,6 +3898,7 @@
 0.0.0.0 ads.newsint.co.uk
 0.0.0.0 djbanners.deadjournal.com
 0.0.0.0 georgewbushcom.112.2o7.net
+0.0.0.0 secure.addthis.com
 0.0.0.0 snapsonthehouse.com
 0.0.0.0 b.liquidustv.com
 0.0.0.0 media3.popmarker.com
@@ -3925,6 +3933,7 @@
 0.0.0.0 o0.winfuture.de
 0.0.0.0 e-2dj6wfkokjajseq.stats.esomniture.com
 0.0.0.0 www.realdrjudy.com
+0.0.0.0 www.konceptseven.com
 0.0.0.0 monster.gostats.com
 0.0.0.0 ads.realmedia.de
 0.0.0.0 canadaalltax.com
@@ -4439,6 +4448,7 @@
 0.0.0.0 logc1.xiti.com
 0.0.0.0 rtb16.adscience.nl
 0.0.0.0 k6.karbilyazilim.com
+0.0.0.0 www.lamaisonhind.com
 0.0.0.0 data.coremetrics.com
 0.0.0.0 igrs.ca
 0.0.0.0 metrics.whitepages.com
@@ -4498,7 +4508,6 @@
 0.0.0.0 reskins.fr
 0.0.0.0 themusicnetwork.co.uk
 0.0.0.0 urlregistrar.net
-0.0.0.0 ads1.msads.net
 0.0.0.0 imotors.fr
 0.0.0.0 minden-egyben.com
 0.0.0.0 enoughtoday.org
@@ -4717,6 +4726,7 @@
 0.0.0.0 csync.smartadserver.com
 0.0.0.0 kliniksam.com
 0.0.0.0 winter-balance.com
+0.0.0.0 www.massagetherapybyjuli.com
 0.0.0.0 sunhe.jinr.ru
 0.0.0.0 bestaryua.com
 0.0.0.0 eauchan.fr
@@ -6358,7 +6368,6 @@
 0.0.0.0 gcirm.burlingtonfreepress.com
 0.0.0.0 www.isavs.com
 0.0.0.0 e-2dj6wgkoandzieq.stats.esomniture.com
-0.0.0.0 a.ads1.msn.com
 0.0.0.0 protection.stpolice.com
 0.0.0.0 track.msadcenter.ybi.com
 0.0.0.0 247blinds.fr
@@ -6538,6 +6547,7 @@
 0.0.0.0 cyberprotection.pro
 0.0.0.0 annuaire-autosurf.com
 0.0.0.0 orowy.comfortykive.xyz
+0.0.0.0 secure.bidvertiser.com
 0.0.0.0 ichisushi.fr
 0.0.0.0 a-resolver.com
 0.0.0.0 ourorder.info
@@ -6599,6 +6609,7 @@
 0.0.0.0 siteimproveanalytics.com
 0.0.0.0 adserver.icmedienhaus.de
 0.0.0.0 www.loveromantic.com
+0.0.0.0 www.ksiargentina.com
 0.0.0.0 ad42digital.checkm8.com
 0.0.0.0 spotchannel02.com
 0.0.0.0 egeszsegespont.hu
@@ -6946,7 +6957,6 @@
 0.0.0.0 ad.kataweb.it
 0.0.0.0 reklam.arabul.com
 0.0.0.0 scure-royaibamk.com
-0.0.0.0 bs.serving-sys.com
 0.0.0.0 hightrafficads.com
 0.0.0.0 dcads.sina.com.cn
 0.0.0.0 kithrup.matchlogic.com
@@ -7190,7 +7200,6 @@
 0.0.0.0 carnegienet.net
 0.0.0.0 adserver.livejournal.com
 0.0.0.0 netads.hotwired.com
-0.0.0.0 a.rad.msn.com
 0.0.0.0 scyxj.comfortykive.xyz
 0.0.0.0 www.pearlyappss.pro
 0.0.0.0 ph-ad17.focalink.com
@@ -9794,6 +9803,7 @@
 0.0.0.0 media.adrcdn.com
 0.0.0.0 comineeis.vu
 0.0.0.0 floratelecom.com
+0.0.0.0 www.ilyasasseban.com
 0.0.0.0 ads.fileindexer.com
 0.0.0.0 www.olimpgokart.com
 0.0.0.0 freelaptopreward.com
@@ -10574,6 +10584,7 @@
 0.0.0.0 n339.asp-cc.com
 0.0.0.0 counter3.sextracker.com
 0.0.0.0 www.gotorobeks.com
+0.0.0.0 secure-js.kontera.com
 0.0.0.0 ads.nyi.net
 0.0.0.0 www.hypetrust.com
 0.0.0.0 cdn.adk2.com
@@ -11287,7 +11298,6 @@
 0.0.0.0 impdk.tradedoubler.com
 0.0.0.0 cdn.mobicow.com
 0.0.0.0 imserv00x.adtech.us
-0.0.0.0 adnxs.com
 0.0.0.0 adserver.ro
 0.0.0.0 www.framermotionplayground.com
 0.0.0.0 admonkey.dapper.net
@@ -11333,7 +11343,6 @@
 0.0.0.0 www.formalyzer.com
 0.0.0.0 movieads.imgs.sapo.pt
 0.0.0.0 latrubune.fr
-0.0.0.0 aka-cdn-ns.adtech.de
 0.0.0.0 c.at.msn.com
 0.0.0.0 server-stockh.imrworldwide.com
 0.0.0.0 cloudadservers.com
@@ -13169,7 +13178,6 @@
 0.0.0.0 ehg-groupernetworks.hitbox.com
 0.0.0.0 oascentral.blackenterprises.com
 0.0.0.0 in.5.p2l.info
-0.0.0.0 secure-js.kontera.com
 0.0.0.0 www.e-bannerx.com
 0.0.0.0 zeroredirect12.com
 0.0.0.0 uav.tidaltv.com
@@ -13641,7 +13649,6 @@
 0.0.0.0 wayfarerspoutpraise.com
 0.0.0.0 seward.net
 0.0.0.0 www.feedstermedia.com
-0.0.0.0 secure.bidvertiserr.com
 0.0.0.0 lolshock.com
 0.0.0.0 55.2myip.com
 0.0.0.0 w106.hitbox.com
@@ -14095,7 +14102,6 @@
 0.0.0.0 www.thepounder.com
 0.0.0.0 x3.extreme-dm.com
 0.0.0.0 yasmin.3.p2l.info
-0.0.0.0 secure.addthis.com
 0.0.0.0 spanel.gem.pl
 0.0.0.0 w.l.qq.com
 0.0.0.0 ecard4all.com
@@ -14275,7 +14281,6 @@
 0.0.0.0 www.flexibletool.com
 0.0.0.0 www.heimlich-gefilmt.cxa.de
 0.0.0.0 www.rewardsflow.com
-0.0.0.0 secure.bidvertiser.com
 0.0.0.0 valsgaard-kofod.dk
 0.0.0.0 www.shoppingminds.net
 0.0.0.0 in.yimg.com
