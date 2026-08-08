@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-08-08 00:58:09 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-08-08 10:00:04 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -2985,6 +2985,7 @@
 0.0.0.0 likethislist.biz			# Facebook trojan
 0.0.0.0 organic-harmony.com
 0.0.0.0 go.stirshakead.com
+0.0.0.0 secure.netscope.marktest.pt
 0.0.0.0 adserver.hellasnet.gr
 0.0.0.0 btbuyerapp.com
 0.0.0.0 www.myhucadvantage.com
@@ -13142,7 +13143,6 @@
 0.0.0.0 szemlelo.com
 0.0.0.0 www.dadparty.com
 0.0.0.0 www.octopusgirl.com
-0.0.0.0 secure.netscope.marktest.pt
 0.0.0.0 bagslap.com
 0.0.0.0 www.avenues-inc.com
 0.0.0.0 serve.freegaypix.com
