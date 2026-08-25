@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-08-25 00:44:23 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-08-25 09:37:35 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -5066,7 +5066,6 @@
 0.0.0.0 kliks.affiliate4you.nl
 0.0.0.0 extractsight.com
 0.0.0.0 www.erspan.com
-0.0.0.0 sb7.shble.com
 0.0.0.0 adserv.maineguide.com
 0.0.0.0 comsss-56.com
 0.0.0.0 kantoexuziiv.com
@@ -10276,6 +10275,7 @@
 0.0.0.0 mh-miyoshi.jp
 0.0.0.0 connecting-to.com
 0.0.0.0 assets.applovin.com
+0.0.0.0 www.financevd.com
 0.0.0.0 filter.mediacpc.com
 0.0.0.0 bs.url.tw
 0.0.0.0 ads.internic.co.il
@@ -12593,6 +12593,7 @@
 0.0.0.0 adderall.ourtablets.com
 0.0.0.0 www.guesstheview.com
 0.0.0.0 xphones-2019.info
+0.0.0.0 sb7.shble.com
 0.0.0.0 counter2.hitbox.com
 0.0.0.0 www.visualwebsiteoptimizer.com
 0.0.0.0 oascentral.gigex.com
