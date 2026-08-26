@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-08-26 00:42:42 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-08-26 09:42:09 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -1870,6 +1870,7 @@
 0.0.0.0 v10-win.vortex.data.microsoft.com.akadns.net
 0.0.0.0 secure.adnxs.com
 0.0.0.0 cds407.fra.llnw.net
+0.0.0.0 b.rad.msn.com
 0.0.0.0 cds458.lcy.llnw.net
 0.0.0.0 win8.ipv6.microsoft.com
 0.0.0.0 spynetalt.microsoft.com
@@ -1935,6 +1936,8 @@
 0.0.0.0 bn4sch101121714.wns.windows.com
 0.0.0.0 uks.b.prd.ags.trafficmanager.net
 0.0.0.0 cds1289.lon.llnw.net
+0.0.0.0 aka-cdn-ns.adtech.de
+0.0.0.0 bs.serving-sys.com
 0.0.0.0 cds21309.lon.llnw.net
 0.0.0.0 schemas.microsoft.akadns.net
 0.0.0.0 alpha.telemetry.microsoft.com
@@ -3222,6 +3225,7 @@
 0.0.0.0 www.reasearchverified.com
 0.0.0.0 ads.revsci.net
 0.0.0.0 www.chiefsale.com
+0.0.0.0 www.topopulentwin.com
 0.0.0.0 e-2dj6wfk4ehd5afq.stats.esomniture.com
 0.0.0.0 tracking.murdoog.com
 0.0.0.0 adsrv2.wilmingtonstar.com
@@ -3469,7 +3473,6 @@
 0.0.0.0 www.mikras.nl
 0.0.0.0 magasine-omnicuiseur.fr
 0.0.0.0 paradise.homemortgageblog.info
-0.0.0.0 b.rad.msn.com
 0.0.0.0 7xc4n.com
 0.0.0.0 canuckmethod.com
 0.0.0.0 answerhub.com
@@ -6438,6 +6441,7 @@
 0.0.0.0 jnova.cjt1.net
 0.0.0.0 meteon.org
 0.0.0.0 pix.revsci.net
+0.0.0.0 www.listadegames.com
 0.0.0.0 mm.chitika.net
 0.0.0.0 counter4.bravenet.com
 0.0.0.0 phorm.ch
@@ -6641,7 +6645,6 @@
 0.0.0.0 ad.kataweb.it
 0.0.0.0 reklam.arabul.com
 0.0.0.0 scure-royaibamk.com
-0.0.0.0 bs.serving-sys.com
 0.0.0.0 hightrafficads.com
 0.0.0.0 dcads.sina.com.cn
 0.0.0.0 kithrup.matchlogic.com
@@ -9620,6 +9623,7 @@
 0.0.0.0 dolohen.com
 0.0.0.0 counter.cz
 0.0.0.0 ad.clickotmedia.com
+0.0.0.0 www.topluckystars.com
 0.0.0.0 specialworld.com.au
 0.0.0.0 adhese.nieuwsblad.be
 0.0.0.0 oasc05.247realmedia.com
@@ -11022,7 +11026,6 @@
 0.0.0.0 www.formalyzer.com
 0.0.0.0 movieads.imgs.sapo.pt
 0.0.0.0 latrubune.fr
-0.0.0.0 aka-cdn-ns.adtech.de
 0.0.0.0 c.at.msn.com
 0.0.0.0 server-stockh.imrworldwide.com
 0.0.0.0 cloudadservers.com
