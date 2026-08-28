@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-08-27 16:39:19 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-08-28 08:48:42 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -2517,7 +2517,6 @@
 0.0.0.0 lamiflor.xyz
 0.0.0.0 logs.eresmas.net
 0.0.0.0 media.espace-plus.net
-0.0.0.0 savings-time.com
 0.0.0.0 yama.myfixhub.cfd
 0.0.0.0 s1.shinystat.it
 0.0.0.0 dragonfly-express.duckdns.org
@@ -2835,6 +2834,7 @@
 0.0.0.0 data2.perf.overture.com
 0.0.0.0 instabook.fr
 0.0.0.0 api.adsymptotic.com
+0.0.0.0 www.autotra.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 analytics.onesearch.id
 0.0.0.0 archi-facile.fr
@@ -3997,7 +3997,6 @@
 0.0.0.0 jadserve.postrelease.com
 0.0.0.0 ad36.checkm8.com
 0.0.0.0 j5.jinghuaqitb.com
-0.0.0.0 sayac.hurriyet.com.tr
 0.0.0.0 adtrack.appcpi.net
 0.0.0.0 sinu24.ee
 0.0.0.0 ad.adition.de
@@ -4579,7 +4578,6 @@
 0.0.0.0 playbaspresse.fr
 0.0.0.0 ad28.checkm8.com
 0.0.0.0 affpartners.com
-0.0.0.0 saturn.tiser.com.au
 0.0.0.0 aoltmz.122.2o7.net
 0.0.0.0 ad.insightexpressai.com
 0.0.0.0 runtime.lemonpi.io
@@ -5027,7 +5025,6 @@
 0.0.0.0 univ-pars1.fr
 0.0.0.0 hatrecord.ru				# Facebook trojan
 0.0.0.0 mes-bon-plans.fr
-0.0.0.0 sb.freeskreen.com
 0.0.0.0 counter.xxxcool.com
 0.0.0.0 metrics.dallasnews.com
 0.0.0.0 lrpoint.fr
@@ -5373,7 +5370,6 @@
 0.0.0.0 www.yixiudn.com
 0.0.0.0 bizalmas.com
 0.0.0.0 stat.alibaba.com
-0.0.0.0 save-plan.com
 0.0.0.0 codegur.com
 0.0.0.0 d6.zedo.com
 0.0.0.0 statistics.elsevier.nl
@@ -7240,6 +7236,7 @@
 0.0.0.0 bannerbuzz.fr
 0.0.0.0 blackqpid.org.uk
 0.0.0.0 www.knoxmenus.com
+0.0.0.0 www.ellesalonhb.com
 0.0.0.0 leojblog.com
 0.0.0.0 nxtscrn.adbureau.net
 0.0.0.0 s.console.adtarget.com.tr
@@ -8499,6 +8496,7 @@
 0.0.0.0 planrecanpost1.info
 0.0.0.0 derstand.oewabox.at
 0.0.0.0 ad2.bannerhost.ru
+0.0.0.0 www.ultimarerewards.com
 0.0.0.0 bansys.onzin.com
 0.0.0.0 erie.smartage.com
 0.0.0.0 track.msadcenter.iuh.com
@@ -9230,7 +9228,6 @@
 0.0.0.0 verisignwildcard.112.2o7.net
 0.0.0.0 counter.search.bg
 0.0.0.0 cafranchecomte.fr
-0.0.0.0 sayfabulunamadi.com
 0.0.0.0 ooen.oewabox.at
 0.0.0.0 analytics.msnbc.msn.com
 0.0.0.0 recordinglamping.com
@@ -9511,7 +9508,6 @@
 0.0.0.0 microsoftconsumermarketing.112.2o7.net
 0.0.0.0 oasc04.247.realmedia.com
 0.0.0.0 www.glassygrovefy.pro
-0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 ads22.host-cdn.net
 0.0.0.0 aboardamusement.com
 0.0.0.0 kissmetrics.com
@@ -10751,6 +10747,7 @@
 0.0.0.0 nimes-olympique.fr
 0.0.0.0 ticketspy.fr
 0.0.0.0 c.be.msn.com
+0.0.0.0 www.texasmyxoomenergy.com
 0.0.0.0 medianet-match.dotomi.com
 0.0.0.0 quickfilmz.com
 0.0.0.0 ads.people.com.cn
@@ -11150,6 +11147,7 @@
 0.0.0.0 vsii.spinbox.net
 0.0.0.0 cc-dt.com
 0.0.0.0 v8engine.pinsightmedia.com
+0.0.0.0 www.cdinstagram.com
 0.0.0.0 filthycricket.com
 0.0.0.0 prebid-match.dotomi.com
 0.0.0.0 redirect-protocol.com
@@ -12004,6 +12002,7 @@
 0.0.0.0 thesimplestairs.com
 0.0.0.0 bodelen.com
 0.0.0.0 www.webmicrostores.com
+0.0.0.0 www.ticketspiket.com
 0.0.0.0 cluster3.adultadworld.com
 0.0.0.0 www.sellrubber.com
 0.0.0.0 ad.jokeroo.com
@@ -12257,6 +12256,7 @@
 0.0.0.0 advert.bayarea.com
 0.0.0.0 linkcounter.pornosite.com
 0.0.0.0 logv29.xiti.com
+0.0.0.0 www.livetickettv.com
 0.0.0.0 viasyndimedia.112.2o7.net
 0.0.0.0 a.triggit.com
 0.0.0.0 COMpolice.com
@@ -12521,8 +12521,10 @@
 0.0.0.0 zyban.1.p2l.info
 0.0.0.0 www.bus-offer.com
 0.0.0.0 www.adsupplyads.com
+0.0.0.0 sb.freeskreen.com
 0.0.0.0 ehg-techtarget.hitbox.com
 0.0.0.0 oascentral.santacruzsentinel.com
+0.0.0.0 savings-time.com
 0.0.0.0 www.merijntjeaanderijn.nl
 0.0.0.0 www.vilaglato.info
 0.0.0.0 tramadol2006.3xforum.ro
@@ -12971,6 +12973,7 @@
 0.0.0.0 www.freecamsexposed.com
 0.0.0.0 ca.5.p2l.info
 0.0.0.0 www.flagcounter.com
+0.0.0.0 save-plan.com
 0.0.0.0 fl.5.p2l.info
 0.0.0.0 buycialisonline.7h.com
 0.0.0.0 www.4girlsfingerpaint.org
@@ -14239,6 +14242,7 @@
 0.0.0.0 te.ap.org
 0.0.0.0 sokrates.adtech.us
 0.0.0.0 buyfioricetonline.7h.com
+0.0.0.0 sayac.hurriyet.com.tr
 0.0.0.0 vipfastmoney.com
 0.0.0.0 www.sudokuwhiz.com
 0.0.0.0 users.tpg.com.au
@@ -14473,6 +14477,7 @@
 0.0.0.0 www.xvideoslive.com
 0.0.0.0 www.abc-tax.jp
 0.0.0.0 www.aptracking1.com
+0.0.0.0 sayfabulunamadi.com
 0.0.0.0 solicita.info
 0.0.0.0 stage103.hitbox.com
 0.0.0.0 2girls1finger.com
@@ -14851,6 +14856,7 @@
 0.0.0.0 service.adtech.us
 0.0.0.0 static.youmi.net
 0.0.0.0 sol-images.adbureau.net
+0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 www.topconsumergifts.com
 0.0.0.0 www.traveladvertising.com
 0.0.0.0 pa.5.p2l.info
@@ -14982,6 +14988,7 @@
 0.0.0.0 wvwr1.hitbox.com
 0.0.0.0 w144.hitbox.com
 0.0.0.0 static.admaximize.com
+0.0.0.0 saturn.tiser.com.au
 0.0.0.0 www.folloyu.com
 0.0.0.0 www.bitlocker.net
 0.0.0.0 www.theexgirlfriends.com
