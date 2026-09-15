@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-09-15 04:13:37 | 📝 当前规则：hosts.txt
+! Description:📝 更新时间: 2026-09-15 12:23:47 | 📝 当前规则：hosts.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -5218,7 +5218,6 @@
 0.0.0.0 ad.bannerbank.ru
 0.0.0.0 ads153.console.adtarget.com.tr
 0.0.0.0 installmac.com
-0.0.0.0 s.visilabs.net
 0.0.0.0 www.white-dock.net
 0.0.0.0 track.xapads.com
 0.0.0.0 pixel.sitescout.com
@@ -5404,7 +5403,6 @@
 0.0.0.0 leomonde.fr
 0.0.0.0 chickenwaves.com
 0.0.0.0 oeamtc.oewabox.at
-0.0.0.0 s.tcimg.com
 0.0.0.0 nextoptim.com
 0.0.0.0 adsrv.tuscaloosanews.com
 0.0.0.0 www2.pagecount.com
@@ -5590,6 +5588,7 @@
 0.0.0.0 insightfirst.com
 0.0.0.0 www.pelistvseries.com
 0.0.0.0 freedvddept.com
+0.0.0.0 www.proctou.com
 0.0.0.0 apiapple.com
 0.0.0.0 www.objectopoly.info
 0.0.0.0 rtb17.adscience.nl
@@ -6404,7 +6403,6 @@
 0.0.0.0 pn2.adserver.yahoo.com
 0.0.0.0 ad16.checkm8.com
 0.0.0.0 ad.gr.doubleclick.net
-0.0.0.0 s.thebrighttag.com
 0.0.0.0 automobi.oewabox.at
 0.0.0.0 e-2dj6wfkykpazskq.stats.esomniture.com
 0.0.0.0 software-wenc.co.cc
@@ -6431,7 +6429,6 @@
 0.0.0.0 d9.zedo.com
 0.0.0.0 ad.pandora.tv
 0.0.0.0 ms-downloading.com
-0.0.0.0 s.spoutable.com
 0.0.0.0 partner.pobieraczek.pl
 0.0.0.0 photo-cam.com
 0.0.0.0 counter11.sextracker.be
@@ -6592,6 +6589,7 @@
 0.0.0.0 cue4you.nl
 0.0.0.0 tracking.nmemails.com
 0.0.0.0 track.msadcenter.ceio.com
+0.0.0.0 www.appfoliio.com
 0.0.0.0 kiosked-d.openx.net
 0.0.0.0 ng.virgul.com
 0.0.0.0 paypal.112.2o7.net
@@ -8225,6 +8223,7 @@
 0.0.0.0 archeives-ouvertes.fr
 0.0.0.0 ads59.console.adtarget.com.tr
 0.0.0.0 finessaweight.shop
+0.0.0.0 www.bisselcommercial.com
 0.0.0.0 ringtonepartner.com
 0.0.0.0 www.7zip.fr
 0.0.0.0 f4.p0y.com
@@ -9501,6 +9500,7 @@
 0.0.0.0 bdaynotes.com
 0.0.0.0 bus-offer.com
 0.0.0.0 counter3.bravenet.com
+0.0.0.0 www.jobomg.com
 0.0.0.0 www.nobetsjustfun.com
 0.0.0.0 changduk26.com			# Facebook trojan
 0.0.0.0 ads.chalomumbai.com
@@ -12804,6 +12804,7 @@
 0.0.0.0 meridia.1.p2l.info
 0.0.0.0 www.market-buster.com
 0.0.0.0 www.pitakchon.com
+0.0.0.0 s.visilabs.net
 0.0.0.0 www.sun-inet.or.jp
 0.0.0.0 st.videojam.tv
 0.0.0.0 www.adfactor.nl
@@ -13014,6 +13015,7 @@
 0.0.0.0 www3.webhostingtalk.com
 0.0.0.0 www.selfpwn.org
 0.0.0.0 w128.hitbox.com
+0.0.0.0 s.tcimg.com
 0.0.0.0 static.trackuity.com
 0.0.0.0 stompebi.link
 0.0.0.0 tewxda71.secure.ne.jp
@@ -14177,6 +14179,7 @@
 0.0.0.0 seks-partner.com
 0.0.0.0 www.adverterenbijsbs.nl
 0.0.0.0 star.pulseonclick.com
+0.0.0.0 s.thebrighttag.com
 0.0.0.0 www.hansvanderwerf.nl
 0.0.0.0 nc.5.p2l.info
 0.0.0.0 4girlsfingerpaint.org
@@ -14209,6 +14212,7 @@
 0.0.0.0 ehg-topps.hitbox.com
 0.0.0.0 www.adcanadian.com
 0.0.0.0 w15.hitbox.com
+0.0.0.0 s.spoutable.com
 0.0.0.0 webads.bizservers.com
 0.0.0.0 xl-trk.com
 0.0.0.0 ehg-pizzahut.hitbox.com
