@@ -1,7 +1,7 @@
 [Tianying-自用规则 Adblock List]
 ! ===================================================
 ! Title: 📌 天影自用规则（每8小时更新一次）
-! Description:📝 更新时间: 2026-09-26 03:56:22 | 📝 当前规则：regex.txt
+! Description:📝 更新时间: 2026-09-26 12:29:20 | 📝 当前规则：regex.txt
 ! 项目地址: 🌐 https://github.com/xiaolei7172/TyADS
 ! 说   明: 💡  整合个人喜爱规则，可能有误杀，介意勿用
 ! ===================================================
@@ -13,6 +13,29 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
+! 天影提示👇以下规则来自： https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
+||report.*.qq.com^
+! 天影提示👇以下规则来自： https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
+||allyes.
+||icast.
+||gg.
+||union.
+||ad.
+||ads.
+||cnzz.
+||adsfile.
+||adserver.
+||adservice.
+||adpic.
+||sax.sina.
+||biz5.
+||adsense.
+||xmindchina.
+||ggg.
+||admaster.
+||googleadservices.
+||saxs.sina.
+||adsame.
 ! 天影提示👇以下规则来自： https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 ||bar*.shinobi.jp^
 ||h3v9p8x2q1r7-agckaeh6g2ehcaes.*.azurewebsites.net^
@@ -87,90 +110,8 @@
 ||fxhpaoxqyajvmdg.
 ||zbb.bbb.*.pics^
 ||poptraf.
-! 天影提示👇以下规则来自： https://raw.githubusercontent.com/Crystal-RainSlide/AdditionalFiltersCN/master/CN.txt
-||report.*.qq.com^
-! 天影提示👇以下规则来自： https://anti-ad.net/easylist.txt
-||da.hornbach.*^
-||dm-*.toutiao.com^
-||adsystem*.*^
-||analysis*.*^
-||bj*.9669.cn^
-||ad-*.net^
-||log.*.hunantv.com^
-||admaster*.*^
-||webads.*^
-||admarvel*.*^
-||ja*.gamersky.com^
-||omniture*.*^
-||vente-unique.*^
-||assoc-amazon.*^
-||omgmta*.*^
-||tuiguang.*^
-||adi*.cnool.net^
-||tr.*.espmp-*fr.net^
-@@||profile*.se.360.cn^
-||gostats.*^
-||adserver.*^
-||web-stat.*^
-||imglnk*.com^
-||adsage*.*^
-||adsensor*.*^
-||24log.*^
-||vs*.gzcu.u3.ucweb.com^
-||engage.3m*^
-||adm*.autoimg.cn^
-||ads*-normal-hl.zijieapi.com^
-||xn--xhq9mt12cf5v.*^
-||qpb*.sohu.com^
-||ad-*.com^
-||ads*-adnow.com^
-||admob.*^
-||impservice*.youdao.com^
-||d*.ruiwen.com^
-||ping.*.sogou.com^
-||xscp0*xq.com^
-||adsmogo*.*^
-||ssc.southpark*^
-||adservice*.*^
-||ac*.786ip.com^
-||xdyn0*jy.com^
-||xn--wxtr9fwyxk9c.*^
-||d*.xinshipu.com^
-||p*-ad-sign.byteimg.com^
-||at*.doubanio.com^
-||dm*.yxlady.com^
-||same*.stockstar.com^
-||gg*.miguvideo.com^
-||dsp*.youdao.com^
-||guanggao*.*^
-||hhba0*kdh.com^
-||adsh*.*^
-@@||tongji.*kuwo.cn^
-||minero-proxy-*.sh^
-||qchannel*.cn^
-||tracker*.qcloud.com^
-||adwords*.*^
-! 天影提示👇以下规则来自： https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
-||allyes.
-||icast.
-||gg.
-||union.
-||ad.
-||ads.
-||cnzz.
-||adsfile.
-||adserver.
-||adservice.
-||adpic.
-||sax.sina.
-||biz5.
-||adsense.
-||xmindchina.
-||ggg.
-||admaster.
-||googleadservices.
-||saxs.sina.
-||adsame.
+! 天影提示👇以下规则来自： https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
+||onetrust.
 ! 天影提示👇以下规则来自： https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
@@ -472,8 +413,6 @@
 ||collector*.ex.co^
 ||touch.yesim.
 ||v*.sitecounter.site^
-! 天影提示👇以下规则来自： https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
-||onetrust.
 ! 天影提示👇以下规则来自： https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
 ||adx.
 ||adx-
@@ -485,6 +424,7 @@ MRelateFeedAd
 ||sell*.etlong.com^
 ||smartads.
 ||adshare.
+||dm-*.toutiao.com^
 ||player.letvcdn.com*.swf|
 ||d*.wanzhuang.com^
 ||adstats.
@@ -501,6 +441,7 @@ MRelateFeedAd
 ||imageadv.
 ||m-vali.cp31.ott.cibntv.net*.mp4
 ||epochtimes^
+||ads*-normal-hl.zijieapi.com^
 ||adapi.
 getAds|
 ||adsfileretry.
@@ -512,9 +453,11 @@ getAds|
 ||img.piaosugo.com*.jpg
 ||adsmis.
 ||sense-*.tapdb.net^
+||ping.*.sogou.com^
 ||pc.min.js*
 ||minero-proxy-*now.sh
 ||pagead2.
+||p*-ad-sign.byteimg.com^
 ||guangyaoli.
 ||ading.
 ||googleads.
@@ -525,6 +468,7 @@ oHead6205.appendChild( oScript6205);
 ||ad-
 ||vali-g1.cp31.ott.cibntv.net*.mp4
 ||adxapi.
+||gg*.miguvideo.com^
 ||adsence.
 ||unityads.
 advertisers.js|
@@ -532,39 +476,86 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
-! 天影提示👇以下规则来自： https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-||tccd.douglas.
+||tracker*.qcloud.com^
+! 天影提示👇以下规则来自： https://anti-ad.net/easylist.txt
+||da.hornbach.*^
+||adsystem*.*^
+||analysis*.*^
+||bj*.9669.cn^
+||ad-*.net^
+||log.*.hunantv.com^
+||admaster*.*^
+||webads.*^
+||admarvel*.*^
+||ja*.gamersky.com^
+||omniture*.*^
+||vente-unique.*^
+||assoc-amazon.*^
+||omgmta*.*^
+||tuiguang.*^
+||adi*.cnool.net^
+||tr.*.espmp-*fr.net^
+@@||profile*.se.360.cn^
+||gostats.*^
+||adserver.*^
+||web-stat.*^
+||imglnk*.com^
+||adsage*.*^
+||adsensor*.*^
+||24log.*^
+||vs*.gzcu.u3.ucweb.com^
+||engage.3m*^
+||adm*.autoimg.cn^
+||xn--xhq9mt12cf5v.*^
+||qpb*.sohu.com^
+||ad-*.com^
+||ads*-adnow.com^
+||admob.*^
+||impservice*.youdao.com^
+||d*.ruiwen.com^
+||xscp0*xq.com^
+||adsmogo*.*^
+||ssc.southpark*^
+||adservice*.*^
+||ac*.786ip.com^
+||xdyn0*jy.com^
+||xn--wxtr9fwyxk9c.*^
+||d*.xinshipu.com^
+||at*.doubanio.com^
+||dm*.yxlady.com^
+||same*.stockstar.com^
+||dsp*.youdao.com^
+||guanggao*.*^
+||hhba0*kdh.com^
+||adsh*.*^
+@@||tongji.*kuwo.cn^
+||minero-proxy-*.sh^
+||qchannel*.cn^
+||adwords*.*^
 ! 天影提示👇以下规则来自： https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
 ||gamenguide.com*adbk
 ||itechpost.com*adbk
-! 天影提示👇以下规则来自： https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
-Banner468x60
-! 天影提示👇以下规则来自： https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
-outlook.live.com._6tqjFb_HmyQup_NPe6dhC
-! 天影提示👇以下规则来自： https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
-||fapnado.*.php|
-! 天影提示👇以下规则来自： https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
-rgmechanicsgames.com*VPN.exe
-||ads*.dfiles.eu^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
-||ads*.dfiles.ru^
+! 天影提示👇以下规则来自： https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+||tccd.douglas.
 ! 天影提示👇以下规则来自： https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
 ||bdcpro*.techweb.com.cn^
+||ads*.dfiles.eu^
 ||aj2*.online^
 ||ads.*.yahoo.com^
 ||adsfilebssdlbig.*.kugou.com^
 ||a*.chajiaotong.com^
 ||bdlm*.hc360.com^
 ||aj1*.xyz^
-||chat*-ce.chatdealer.jp^
 ||ad-host-backup-*.s3.*.amazonaws.com^
 ||bjkedv*.xyz^
+||ads*.dfiles.ru^
 ||bjsvp*.space^
 ||adservice.google.*^
 ||ad.kisstvshow.*^
 ||admicro*.vcmedia.vn^
 ||ad-host-backup-*.*.aliyuncs.com^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
 ||ad.*.360.cn^
 ||aj3*.bid^
 ||aj1*.online^
@@ -578,80 +569,12 @@ rgmechanicsgames.com*VPN.exe
 ||163487*.qmgmw.com^
 ||ax.*.ifeng.com^
 ||ajx*.online^
-||cas.*.criteo.com^
-||cdn-adn-*.rayjump.com^
 ||ad.*.xiaomi.com^
 ||asd8900.oss-*.aliyuncs.com^
 ! 天影提示👇以下规则来自： https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
-||ads*.opensubtitles.org^
-@@||cdn*.porn300.com^
-! 天影提示👇以下规则来自： https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
-||fra-*.braze.eu^
-||collector-*.luigisbox.com^
-||ej1*.online^
-||collector-*.us.tvsquared.com^
-||cj1*.online^
-||gcw*.2liang.cn^
-||fads*s.com^
-||fanpingbi*.gaokao.com^
-||get*bannerads-6egeg2u34q-du.a.run.app^
-||dn*.ixinwei.com^
-||gads*s.com^
-||collector-*.protechts.net^
-||geotargetly-api-*.com^
-||collector-*.px-cloud.net^
-||fads*z.com^
-||fpb*.51edu.com^
-||dj1*.online^
-||display-ad-*.kgslb.com^
-||firebaselogging-*.googleapis.com^
-||gads*z.com^
-! 天影提示👇以下规则来自： https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
-||iad-*.braze.com^
-||ifengad.*.ifeng.com^
-||hads*s.com^
-||js.*2023*.live^
-||js*.abolezi.com^
-||impservice*.yodao.com^
-||gtlpa*.com^
-||js.*2023*.xyz^
-||ky891.oss-*.aliyuncs.com^
+Banner468x60
 ! 天影提示👇以下规则来自： https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
-||158.247.208.
-||23.109.82.
-||get-me-wow.
-||142.91.159.
-|167.206.10.148^
-||23.109.87.
-! 天影提示👇以下规则来自： https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
-||util-*.simply-hentai.com^
-||allsportsflix.
-! 天影提示👇以下规则来自： https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
-||mobileanalytics.*.amazonaws.com^
-||pangolin-sdk-toutiao*.com^
-||p2pup*.gamedl.qq.com^
-||ping*.qq.com^
-||player-feedback*.glomex.*^
-||n*adserv.xyz^
-||piwik.*.vn^
-||log*-misc-lq.amemv.com^
-||logger-*.dailymotion.com^
-||mcdp-*.outbrain.com^
-||prod.*.analytics.console.aws.a2z.com^
-||mautic.*.vn^
-||prod.*.publishers.advertising.a2z.com^
-||matomo.*.vn^
-||p26.gejulm*.com^
-||log-*.previewnetworks.com^
-||mads*z.com^
-||log-*.epicdn.me^
-||mistat.*.xiaomi.com^
-||metric*.rediff.com^
-||log*-*.tiktokv.com^
-||log*-normal-lq.toutiaoapi.com^
-||opnked*.xyz^
-||n*adserv.com^
-||log-*.zadn.vn^
+||fapnado.*.php|
 ! 天影提示👇以下规则来自： https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 |load.ss.
 |load.sst.
@@ -659,88 +582,163 @@ rgmechanicsgames.com*VPN.exe
 |load.sgtm.
 |load.gtm.
 ! 天影提示👇以下规则来自： https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
-||qn-*pcdn.cdn.huya.com^
-||promo-*.vercel.app^
-||qn-*pcdn.cdn.msstatic.com^
-||res*.pinpai8.cn^
-||sam*.baby-kingdom.com^
-||sd.yhzzzs*.com^
-||quangcao-*.epicdn.me^
-! 天影提示👇以下规则来自： https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/filters.txt
-||imgpfx.arenavision.
-! 天影提示👇以下规则来自： https://github.com/ilxp/koolproxy/raw/main/rules/koolproxy.txt
-||ad*.aginomoto.com
+||collector-*.luigisbox.com^
+||ej1*.online^
+||collector-*.us.tvsquared.com^
+||cj1*.online^
+||fads*s.com^
+||fanpingbi*.gaokao.com^
+||dn*.ixinwei.com^
+||collector-*.protechts.net^
+||chat*-ce.chatdealer.jp^
+||collector-*.px-cloud.net^
+||fads*z.com^
+||cas.*.criteo.com^
+||cdn-adn-*.rayjump.com^
+||dj1*.online^
+||display-ad-*.kgslb.com^
+! 天影提示👇以下规则来自： https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+rgmechanicsgames.com*VPN.exe
+! 天影提示👇以下规则来自： https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+||ads*.opensubtitles.org^
+@@||cdn*.porn300.com^
 ! 天影提示👇以下规则来自： https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+||fra-*.braze.eu^
+||js.*2023*.live^
+||log*-misc-lq.amemv.com^
+||logger-*.dailymotion.com^
+||mcdp-*.outbrain.com^
+||mautic.*.vn^
+||gads*s.com^
+||geotargetly-api-*.com^
+||iad-*.braze.com^
+||ifengad.*.ifeng.com^
+||fpb*.51edu.com^
+||matomo.*.vn^
+||log-*.previewnetworks.com^
+||mads*z.com^
+||gtlpa*.com^
+||log-*.epicdn.me^
+||hads*s.com^
+||gcw*.2liang.cn^
+||get*bannerads-6egeg2u34q-du.a.run.app^
+||impservice*.yodao.com^
+||js.*2023*.xyz^
+||log*-*.tiktokv.com^
+||log*-normal-lq.toutiaoapi.com^
+||js*.abolezi.com^
+||firebaselogging-*.googleapis.com^
+||gads*z.com^
+||log-*.zadn.vn^
+||ky891.oss-*.aliyuncs.com^
+! 天影提示👇以下规则来自： https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+||ad*.bilgin.pro^
+||ad*.tmgrup.com.tr^
+! 天影提示👇以下规则来自： https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+outlook.live.com._6tqjFb_HmyQup_NPe6dhC
+! 天影提示👇以下规则来自： https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+||158.247.208.
+||23.109.82.
+||get-me-wow.
+||142.91.159.
+||allsportsflix.
+|167.206.10.148^
+||23.109.87.
+! 天影提示👇以下规则来自： https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+||mobileanalytics.*.amazonaws.com^
+||pangolin-sdk-toutiao*.com^
+||p2pup*.gamedl.qq.com^
+||qn-*pcdn.cdn.msstatic.com^
+||ping*.qq.com^
+||player-feedback*.glomex.*^
+||res*.pinpai8.cn^
+||n*adserv.xyz^
+||piwik.*.vn^
+||stats*.credit-cooperatif.coop^
+||prod.*.analytics.console.aws.a2z.com^
+||sd.yhzzzs*.com^
+||prod.*.publishers.advertising.a2z.com^
+||p26.gejulm*.com^
+||static*.365inews.com^
+||qn-*pcdn.cdn.huya.com^
+||mistat.*.xiaomi.com^
 ||stat.*.v-56.com^
 ||stats-*.p2pnow.ru^
-||tblog-*.kgslb.com^
-||stun.*.kugou.com^
-||stats*.credit-cooperatif.coop^
-||static*.365inews.com^
+||metric*.rediff.com^
 ||stats2.*.fdnames.com^
-! 天影提示👇以下规则来自： https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
-||us.*.qwadro.com^
-||zcchyr*.xyz^
-||uc*.atobo.com^
-||zaqlovh*.xyz^
-||zazgiyoh*.xyz^
-||zcchyw*.xyz^
-||tracking*.euroads.fi^
-||ulog*.*^
-||w*.*skwai.com^
-||ya*.dwstatic.com^
-||ysdm*.ys137.com.cn^
-||widgets.*.webengage.com^
-||zazgiyoh*.world^
-||zhizhizhizhi.oss-*.aliyuncs.com^
-||tupian888.*.bcebos.com^
-||zabdybod*.club^
-||yhsfsdv*.com^
-||thezbpe5*.xyz^
-||zazgbqg*.xyz^
-||xy-*pcdn.msstatic.com^
-||v*.denakop.com^
-||zbc6hye*.xyz^
-||umami-*.sufrah.net^
-||www.xxmh*.com^
-||zahrvfbd*.xyz^
-||zbc6hy*.live^
-||union*.365inews.com^
-||vns86.oss-*.aliyuncs.com^
+||quangcao-*.epicdn.me^
+||opnked*.xyz^
+||promo-*.vercel.app^
+||n*adserv.com^
+||sam*.baby-kingdom.com^
+! 天影提示👇以下规则来自： https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+||util-*.simply-hentai.com^
+! 天影提示👇以下规则来自： https://cdn.jsdelivr.net/gh/uBlockOrigin/uAssetsCDN@main/filters/filters.txt
+||imgpfx.arenavision.
 ! 天影提示👇以下规则来自： https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 ||bc.geocities.
 ||sax*.sina.
-||38.33.15.*.gif
 ||ad*.thisisgame.com^
+||ad*.gyaloglo.hu^
 ||67.21.92.*.gif
+||uc*.atobo.com^
 ||ad*.wisenut.co.kr^
-||adservice.google.co.*
-||ad*.tmgrup.com.tr^
-||fpb1.chinacar.
-||tracker.twenga.
+||adverticum.*.hu^
+analytics-*.aasaam.com
+||tracking*.euroads.fi^
+||tracking.olx.
+||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||ad.*.doubleclick.net^
-||ad*.bilgin.pro^
+||s*.adduplex.com^
 ||basvformu*.xyz^
-||adimg*.search.naver.net^
-||121.204.246.*.gif
+||track.zalando.
+||ya*.dwstatic.com^
+||ad*.mellesleg.hu^
 ||pangolin*.sgsnssdk.com^
-||107.167.16.*.gif
 ||ads-*.v.ssp.yahoo.com^
+||etargetnet.*.hu^
+||t.delfi.
+||ysdm*.ys137.com.cn^
+||sher.*.hu^
 ||partner.superbahisaffiliates*.com^
 ||107.167.22.*.gif
 ||1024wanzhai.
-! 天影提示👇以下规则来自： https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-||ad*.gyaloglo.hu^
-||adverticum.*.hu^
-analytics-*.aasaam.com
-||tracking.olx.
+||38.33.15.*.gif
+||zhizhizhizhi.oss-*.aliyuncs.com^
+||tupian888.*.bcebos.com^
+||adservice.google.co.*
 ||advert*.ultraweb.hu^
 ||as*.prog.hu^
-||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
+||fpb1.chinacar.
+||tracker.twenga.
 ||rehs.*.hu^
-||s*.adduplex.com^
-||track.zalando.
-||ad*.mellesleg.hu^
-||etargetnet.*.hu^
-||t.delfi.
-||sher.*.hu^
+||adimg*.search.naver.net^
+||121.204.246.*.gif
+||107.167.16.*.gif
+||union*.365inews.com^
+||vns86.oss-*.aliyuncs.com^
+! 天影提示👇以下规则来自： https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+||widgets.*.webengage.com^
+||us.*.qwadro.com^
+||zazgiyoh*.world^
+||zcchyr*.xyz^
+||zabdybod*.club^
+||yhsfsdv*.com^
+||thezbpe5*.xyz^
+||zaqlovh*.xyz^
+||zazgiyoh*.xyz^
+||zcchyw*.xyz^
+||zazgbqg*.xyz^
+||ulog*.*^
+||xy-*pcdn.msstatic.com^
+||v*.denakop.com^
+||w*.*skwai.com^
+||zbc6hye*.xyz^
+||umami-*.sufrah.net^
+||www.xxmh*.com^
+||tblog-*.kgslb.com^
+||stun.*.kugou.com^
+||zahrvfbd*.xyz^
+||zbc6hy*.live^
+! 天影提示👇以下规则来自： https://github.com/ilxp/koolproxy/raw/main/rules/koolproxy.txt
+||ad*.aginomoto.com
